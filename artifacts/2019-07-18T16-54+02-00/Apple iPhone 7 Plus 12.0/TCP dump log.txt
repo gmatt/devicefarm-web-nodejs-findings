@@ -1,0 +1,65 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on wlan0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:01:32.008498 IP ip-192-168-1-10.us-west-2.compute.internal.63191 > media-router-apple1.prod.media.vip.gq1.yahoo.com.https: Flags [P.], seq 1967801684:1967802561, ack 1380430109, win 1024, options [nop,nop,TS val 401287876 ecr 309889868], length 877
+15:01:32.035749 IP media-router-apple1.prod.media.vip.gq1.yahoo.com.https > ip-192-168-1-10.us-west-2.compute.internal.63191: Flags [P.], seq 1:653, ack 877, win 251, options [nop,nop,TS val 309904676 ecr 401287876], length 652
+15:01:32.035966 IP media-router-apple1.prod.media.vip.gq1.yahoo.com.https > ip-192-168-1-10.us-west-2.compute.internal.63191: Flags [P.], seq 653:1672, ack 877, win 251, options [nop,nop,TS val 309904676 ecr 401287876], length 1019
+15:01:32.039609 IP ip-192-168-1-10.us-west-2.compute.internal.63191 > media-router-apple1.prod.media.vip.gq1.yahoo.com.https: Flags [.], ack 653, win 1018, options [nop,nop,TS val 401287911 ecr 309904676], length 0
+15:01:32.039639 IP ip-192-168-1-10.us-west-2.compute.internal.63191 > media-router-apple1.prod.media.vip.gq1.yahoo.com.https: Flags [.], ack 1672, win 1010, options [nop,nop,TS val 401287911 ecr 309904676], length 0
+15:01:36.256103 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [SEW], seq 3818702897, win 65535, options [mss 1460,nop,wscale 7,nop,nop,TS val 401294888 ecr 0,sackOK,eol], length 0
+15:01:36.270622 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [S.E], seq 2356077668, ack 3818702898, win 28960, options [mss 1360,nop,nop,TS val 4187961481 ecr 401294888,nop,wscale 5], length 0
+15:01:36.282872 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 1, win 1032, options [nop,nop,TS val 401294918 ecr 4187961481], length 0
+15:01:36.283492 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [P.], seq 1:256, ack 1, win 1032, options [nop,nop,TS val 401294918 ecr 4187961481], length 255
+15:01:36.297928 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], ack 256, win 939, options [nop,nop,TS val 4187961508 ecr 401294918], length 0
+15:01:36.301249 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 1:1349, ack 256, win 939, options [nop,nop,TS val 4187961512 ecr 401294918], length 1348
+15:01:36.301354 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 1349:2697, ack 256, win 939, options [nop,nop,TS val 4187961512 ecr 401294918], length 1348
+15:01:36.303087 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 2697:4045, ack 256, win 939, options [nop,nop,TS val 4187961514 ecr 401294918], length 1348
+15:01:36.303161 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 4045:5393, ack 256, win 939, options [nop,nop,TS val 4187961514 ecr 401294918], length 1348
+15:01:36.304938 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 5393:6741, ack 256, win 939, options [nop,nop,TS val 4187961515 ecr 401294918], length 1348
+15:01:36.305060 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 6741:8089, ack 256, win 939, options [nop,nop,TS val 4187961515 ecr 401294918], length 1348
+15:01:36.306506 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 2697, win 1011, options [nop,nop,TS val 401294940 ecr 4187961512], length 0
+15:01:36.306521 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 5393, win 989, options [nop,nop,TS val 401294940 ecr 4187961514], length 0
+15:01:36.306550 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 5393, win 1024, options [nop,nop,TS val 401294940 ecr 4187961514], length 0
+15:01:36.306785 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [P.], seq 8089:8994, ack 256, win 939, options [nop,nop,TS val 4187961517 ecr 401294918], length 905
+15:01:36.318738 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 8089, win 1002, options [nop,nop,TS val 401294953 ecr 4187961515], length 0
+15:01:36.318754 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 8994, win 995, options [nop,nop,TS val 401294953 ecr 4187961517], length 0
+15:01:36.318789 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 8994, win 1024, options [nop,nop,TS val 401294953 ecr 4187961517], length 0
+15:01:36.449497 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [SEW], seq 805668739, win 65535, options [mss 1460,nop,wscale 7,nop,nop,TS val 401295151 ecr 0,sackOK,eol], length 0
+15:01:36.462929 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [S.E], seq 1817541954, ack 805668740, win 28960, options [mss 1360,nop,nop,TS val 3285522859 ecr 401295151,nop,wscale 5], length 0
+15:01:36.465899 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [.], ack 1, win 1032, options [nop,nop,TS val 401295167 ecr 3285522859], length 0
+15:01:36.475635 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [P.], seq 1:248, ack 1, win 1032, options [nop,nop,TS val 401295177 ecr 3285522859], length 247
+15:01:36.488532 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [P.], seq 256:349, ack 8994, win 1024, options [nop,nop,TS val 401295121 ecr 4187961517], length 93
+15:01:36.489073 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [.], ack 248, win 939, options [nop,nop,TS val 3285522885 ecr 401295177], length 0
+15:01:36.491799 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [.], seq 1:1349, ack 248, win 939, options [nop,nop,TS val 3285522887 ecr 401295177], length 1348
+15:01:36.491904 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [.], seq 1349:2697, ack 248, win 939, options [nop,nop,TS val 3285522887 ecr 401295177], length 1348
+15:01:36.492828 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [.], seq 2697:4045, ack 248, win 939, options [nop,nop,TS val 3285522888 ecr 401295177], length 1348
+15:01:36.492906 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [.], seq 4045:5393, ack 248, win 939, options [nop,nop,TS val 3285522888 ecr 401295177], length 1348
+15:01:36.494314 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [.], seq 5393:6741, ack 248, win 939, options [nop,nop,TS val 3285522889 ecr 401295177], length 1348
+15:01:36.494437 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [.], seq 6741:8089, ack 248, win 939, options [nop,nop,TS val 3285522889 ecr 401295177], length 1348
+15:01:36.494584 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [.], ack 2697, win 1013, options [nop,nop,TS val 401295194 ecr 3285522887], length 0
+15:01:36.494603 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [.], ack 4045, win 1024, options [nop,nop,TS val 401295195 ecr 3285522888], length 0
+15:01:36.495965 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [P.], seq 8089:8694, ack 248, win 939, options [nop,nop,TS val 3285522891 ecr 401295177], length 605
+15:01:36.496222 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [.], ack 6741, win 1013, options [nop,nop,TS val 401295196 ecr 3285522888], length 0
+15:01:36.496721 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [.], ack 8089, win 1024, options [nop,nop,TS val 401295196 ecr 3285522889], length 0
+15:01:36.498763 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [.], ack 8694, win 1019, options [nop,nop,TS val 401295197 ecr 3285522891], length 0
+15:01:36.506510 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [P.], seq 8994:9045, ack 349, win 939, options [nop,nop,TS val 4187961717 ecr 401295121], length 51
+15:01:36.509258 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 9045, win 1023, options [nop,nop,TS val 401295140 ecr 4187961717], length 0
+15:01:36.513780 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [P.], seq 349:604, ack 9045, win 1024, options [nop,nop,TS val 401295143 ecr 4187961717], length 255
+15:01:36.542674 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [P.], seq 248:341, ack 8694, win 1024, options [nop,nop,TS val 401295241 ecr 3285522891], length 93
+15:01:36.550874 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 9045:10393, ack 604, win 972, options [nop,nop,TS val 4187961761 ecr 401295143], length 1348
+15:01:36.551000 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 10393:11741, ack 604, win 972, options [nop,nop,TS val 4187961761 ecr 401295143], length 1348
+15:01:36.552618 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 11741:13089, ack 604, win 972, options [nop,nop,TS val 4187961763 ecr 401295143], length 1348
+15:01:36.552708 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 13089:14437, ack 604, win 972, options [nop,nop,TS val 4187961763 ecr 401295143], length 1348
+15:01:36.554413 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [.], seq 14437:15785, ack 604, win 972, options [nop,nop,TS val 4187961765 ecr 401295143], length 1348
+15:01:36.554495 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [P.], seq 15785:15876, ack 604, win 972, options [nop,nop,TS val 4187961765 ecr 401295143], length 91
+15:01:36.554580 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 11741, win 1002, options [nop,nop,TS val 401295184 ecr 4187961761], length 0
+15:01:36.554608 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 11741, win 1024, options [nop,nop,TS val 401295184 ecr 4187961761], length 0
+15:01:36.554879 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 14437, win 1002, options [nop,nop,TS val 401295185 ecr 4187961763], length 0
+15:01:36.554895 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 14437, win 1024, options [nop,nop,TS val 401295185 ecr 4187961763], length 0
+15:01:36.556371 IP 17.248.130.238.https > ip-192-168-1-10.us-west-2.compute.internal.63396: Flags [P.], seq 8694:8745, ack 341, win 939, options [nop,nop,TS val 3285522952 ecr 401295241], length 51
+15:01:36.557398 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [.], ack 15876, win 1012, options [nop,nop,TS val 401295186 ecr 4187961765], length 0
+15:01:36.558919 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [.], ack 8745, win 1023, options [nop,nop,TS val 401295256 ecr 3285522952], length 0
+15:01:36.565061 IP ip-192-168-1-10.us-west-2.compute.internal.63396 > 17.248.130.238.https: Flags [P.], seq 341:1055, ack 8745, win 1024, options [nop,nop,TS val 401295262 ecr 3285522952], length 714
+15:01:36.569200 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [P.], seq 604:635, ack 15876, win 1024, options [nop,nop,TS val 401295198 ecr 4187961765], length 31
+15:01:36.571282 IP ip-192-168-1-10.us-west-2.compute.internal.63395 > 17.248.130.176.https: Flags [F.], seq 635, ack 15876, win 1024, options [nop,nop,TS val 401295198 ecr 4187961765], length 0
+15:01:36.583657 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63395: Flags [F.], seq 15876, ack 635, win 972, options [nop,nop,TS val 4187961794 ecr 401295198], length 0
+15:01:36.585597 IP 17.248.130.176.https > ip-192-168-1-10.us-west-2.compute.internal.63

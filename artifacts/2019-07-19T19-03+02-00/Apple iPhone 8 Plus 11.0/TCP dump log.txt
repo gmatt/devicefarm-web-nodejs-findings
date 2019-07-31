@@ -1,0 +1,23 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on wlan0, link-type EN10MB (Ethernet), capture size 262144 bytes
+17:11:21.212655 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.49777: Flags [P.], seq 2090366191:2090366222, ack 785611490, win 61, options [nop,nop,TS val 3682707205 ecr 879962963], length 31
+17:11:21.212809 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.49777: Flags [F.], seq 31, ack 1, win 61, options [nop,nop,TS val 3682707205 ecr 879962963], length 0
+17:11:21.257398 IP ip-192-168-1-10.us-west-2.compute.internal.49777 > api-sea.smoot.apple.com.https: Flags [.], ack 31, win 2047, options [nop,nop,TS val 879992079 ecr 3682707205], length 0
+17:11:21.257418 IP ip-192-168-1-10.us-west-2.compute.internal.49777 > api-sea.smoot.apple.com.https: Flags [.], ack 32, win 2047, options [nop,nop,TS val 879992079 ecr 3682707205], length 0
+17:11:21.259434 IP ip-192-168-1-10.us-west-2.compute.internal.49777 > api-sea.smoot.apple.com.https: Flags [P.], seq 1:32, ack 32, win 2048, options [nop,nop,TS val 879992080 ecr 3682707205], length 31
+17:11:21.260014 IP ip-192-168-1-10.us-west-2.compute.internal.49777 > api-sea.smoot.apple.com.https: Flags [F.], seq 32, ack 32, win 2048, options [nop,nop,TS val 879992082 ecr 3682707205], length 0
+17:11:21.274324 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.49777: Flags [R], seq 2090366223, win 0, length 0
+17:11:21.274775 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.49777: Flags [R], seq 2090366223, win 0, length 0
+17:11:21.455924 IP ip-192-168-1-10.us-west-2.compute.internal.49819 > sentitlement2.mobile.att.net.https: Flags [SEW], seq 2668826616, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 879992272 ecr 0,sackOK,eol], length 0
+17:11:21.522955 IP sentitlement2.mobile.att.net.https > ip-192-168-1-10.us-west-2.compute.internal.49819: Flags [S.], seq 1277176440, ack 2668826617, win 13780, options [mss 1360,sackOK,TS val 1812757710 ecr 879992272,nop,wscale 9], length 0
+17:11:21.525938 IP ip-192-168-1-10.us-west-2.compute.internal.49819 > sentitlement2.mobile.att.net.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 879992341 ecr 1812757710], length 0
+17:11:21.526542 IP ip-192-168-1-10.us-west-2.compute.internal.49819 > sentitlement2.mobile.att.net.https: Flags [P.], seq 1:248, ack 1, win 2064, options [nop,nop,TS val 879992342 ecr 1812757710], length 247
+17:11:21.592632 IP sentitlement2.mobile.att.net.https > ip-192-168-1-10.us-west-2.compute.internal.49819: Flags [.], ack 248, win 30, options [nop,nop,TS val 1812757727 ecr 879992342], length 0
+17:11:21.609373 IP sentitlement2.mobile.att.net.https > ip-192-168-1-10.us-west-2.compute.internal.49819: Flags [.], seq 1:1349, ack 248, win 30, options [nop,nop,TS val 1812757732 ecr 879992342], length 1348
+17:11:21.609507 IP sentitlement2.mobile.att.net.https > ip-192-168-1-10.us-west-2.compute.internal.49819: Flags [.], seq 1349:2697, ack 248, win 30, options [nop,nop,TS val 1812757732 ecr 879992342], length 1348
+17:11:21.609546 IP sentitlement2.mobile.att.net.https > ip-192-168-1-10.us-west-2.compute.internal.49819: Flags [P.], seq 2697:3400, ack 248, win 30, options [nop,nop,TS val 1812757732 ecr 879992342], length 703
+17:11:21.613214 IP ip-192-168-1-10.us-west-2.compute.internal.49819 > sentitlement2.mobile.att.net.https: Flags [.], ack 2697, win 2022, options [nop,nop,TS val 879992426 ecr 1812757732], length 0
+17:11:21.613243 IP ip-192-168-1-10.us-west-2.compute.internal.49819 > sentitlement2.mobile.att.net.https: Flags [.], ack 3400, win 2011, options [nop,nop,TS val 879992426 ecr 1812757732], length 0
+17:11:21.635978 IP ip-192-168-1-10.us-west-2.compute.internal.49819 > sentitlement2.mobile.att.net.https: Flags [P.], seq 248:374, ack 3400, win 2048, options [nop,nop,TS val 879992448 ecr 1812757732], length 126
+17:11:21.703509 IP sentitlement2.mobile.att.net.https > ip-192-168-1-10.us-west-2.compute.internal.49819: Flags [P.], seq 3400:3451, ack 374, win 30, options [nop,nop,TS val 1812757755 ecr 879992448], length 51
+17:11:21.706315 IP ip-192-168-1-10.us-west-2.compute.internal.49819 > sentitlement2.mobi

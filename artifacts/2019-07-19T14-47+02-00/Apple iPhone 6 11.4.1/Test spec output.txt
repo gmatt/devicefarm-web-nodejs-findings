@@ -1,0 +1,153 @@
+[DEVICEFARM] Setting up your device. This usually takes 2-3 minutes.
+[DEVICEFARM] ########### Start executing testspec ###########
+ 
+ 
+[DEVICEFARM] ########### Entering phase install ###########
+ 
+[DeviceFarm] export APPIUM_VERSION=1.9.1
+[DeviceFarm] avm $APPIUM_VERSION
+  [36m    exists[0m : [90m1.9.1[0m
+[DeviceFarm] ln -s /usr/local/avm/versions/$APPIUM_VERSION/node_modules/.bin/appium  /usr/local/avm/versions/$APPIUM_VERSION/node_modules/appium/bin/appium.js
+ln: /usr/local/avm/versions/1.9.1/node_modules/appium/bin/appium.js: File exists
+[DeviceFarm] echo "Navigate to test package directory"
+Navigate to test package directory
+[DeviceFarm] cd $DEVICEFARM_TEST_PACKAGE_PATH
+[DeviceFarm] npm install *.tgz
+
+> fibers@4.0.1 install /private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/node_modules/devicefarm-web-nodejs-test/node_modules/fibers
+> node build.js || nodejs build.js
+
+  CXX(target) Release/obj.target/fibers/src/fibers.o
+  CXX(target) Release/obj.target/fibers/src/coroutine.o
+  CC(target) Release/obj.target/fibers/src/libcoro/coro.o
+  SOLINK_MODULE(target) Release/fibers.node
+Installed in `/private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/node_modules/devicefarm-web-nodejs-test/node_modules/fibers/bin/darwin-x64-67/fibers.node`
+npm WARN saveError ENOENT: no such file or directory, open '/private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/package.json'
+npm WARN test-packageZEx1Iy No description
+npm WARN test-packageZEx1Iy No repository field.
+npm WARN test-packageZEx1Iy No README data
+npm WARN test-packageZEx1Iy No license field.
+
++ devicefarm-web-nodejs-test@1.0.0
+added 347 packages from 655 contributors and audited 1456 packages in 46.288s
+found 0 vulnerabilities
+
+ 
+[DEVICEFARM] ########### Entering phase pre_test ###########
+ 
+[DeviceFarm] if [ $DEVICEFARM_DEVICE_PLATFORM_NAME = "Android" ]; then echo "Start appium server for android"; (appium --log-timestamp --browser-name Chrome --device-name $DEVICEFARM_DEVICE_NAME --platform-name $DEVICEFARM_DEVICE_PLATFORM_NAME --udid $DEVICEFARM_DEVICE_UDID --chromedriver-executable $DEVICEFARM_CHROMEDRIVER_EXECUTABLE  >> $DEVICEFARM_LOG_DIR/appiumlog.txt 2>&1 &); fi
+[DeviceFarm] if [ $DEVICEFARM_DEVICE_PLATFORM_NAME = "iOS" ]; then echo "Start appium server for iOS"; (appium --log-timestamp --browser-name Safari --device-name $DEVICEFARM_DEVICE_NAME --platform-name $DEVICEFARM_DEVICE_PLATFORM_NAME --udid $DEVICEFARM_DEVICE_UDID --automation-name XCUITest --default-capabilities "{\"usePrebuiltWDA\": true, \"derivedDataPath\":\"$DEVICEFARM_WDA_DERIVED_DATA_PATH_V1\"}" >> $DEVICEFARM_LOG_DIR/appiumlog.txt 2>&1 &); fi
+Start appium server for iOS
+[DeviceFarm] start_appium_timeout=0; while [ true ]; do
+    if [ $start_appium_timeout -gt 60 ];
+    then
+        echo "appium server never started in 60 seconds. Exiting";
+        exit 1;
+    fi;
+    grep -i "Appium REST http interface listener started on 0.0.0.0:4723" $DEVICEFARM_LOG_DIR/appiumlog.txt >> /dev/null 2>&1;
+    if [ $? -eq 0 ];
+    then
+        echo "Appium REST http interface listener started on 0.0.0.0:4723";
+        break;
+    else
+        echo "Waiting for appium server to start. Sleeping for 1 second";
+        sleep 1;
+        start_appium_timeout=$((start_appium_timeout+1));
+    fi;
+done; 
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Appium REST http interface listener started on 0.0.0.0:4723
+ 
+[DEVICEFARM] ########### Entering phase test ###########
+ 
+[DeviceFarm] echo "Navigate to test source code"
+Navigate to test source code
+[DeviceFarm] cd $DEVICEFARM_TEST_PACKAGE_PATH/node_modules/*
+[DeviceFarm] echo "Start Appium Node test"
+Start Appium Node test
+[DeviceFarm] ./node_modules/.bin/wdio wdio.conf.js
+
+Execution of 1 spec files started at 2019-07-19T12:50:52.369Z
+
+2019-07-19T12:50:52.373Z INFO @wdio/cli:Launcher: Run onPrepare hook
+2019-07-19T12:50:52.389Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
+[0-0] RUNNING in undefined - /test/specs/basic.js
+[0-0] 2019-07-19T12:50:53.403Z INFO @wdio/local-runner: Run worker command: run
+[0-0] 2019-07-19T12:50:53.639Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+[0-0] 2019-07-19T12:50:53.639Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T12:53:05.313Z INFO webdriver: COMMAND navigateTo("https://webdriver.io/")
+[0-0] 2019-07-19T12:53:05.314Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/url
+[0-0] 2019-07-19T12:53:05.314Z INFO webdriver: DATA { url: 'https://webdriver.io/' }
+[0-0] 2019-07-19T12:53:07.105Z INFO webdriver: COMMAND getTitle()
+2019-07-19T12:53:07.105Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.266Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Did not get any response after 300s
+[0-0] 2019-07-19T12:53:12.267Z INFO webdriver: Retrying 1/10
+2019-07-19T12:53:12.267Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.319Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.319Z INFO webdriver: Retrying 2/10
+2019-07-19T12:53:12.319Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.356Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.357Z INFO webdriver: Retrying 3/10
+[0-0] 2019-07-19T12:53:12.357Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.379Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.379Z INFO webdriver: Retrying 4/10
+[0-0] 2019-07-19T12:53:12.379Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.402Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.402Z INFO webdriver: Retrying 5/10
+[0-0] 2019-07-19T12:53:12.402Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.469Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.469Z INFO webdriver: Retrying 6/10
+[0-0] 2019-07-19T12:53:12.469Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.482Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.482Z INFO webdriver: Retrying 7/10
+[0-0] 2019-07-19T12:53:12.483Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.493Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.493Z INFO webdriver: Retrying 8/10
+[0-0] 2019-07-19T12:53:12.494Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.504Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.505Z INFO webdriver: Retrying 9/10
+[0-0] 2019-07-19T12:53:12.505Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.515Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.516Z INFO webdriver: Retrying 10/10
+[0-0] 2019-07-19T12:53:12.516Z INFO webdriver: [GET] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff/title
+[0-0] 2019-07-19T12:53:12.526Z ERROR webdriver: Request failed due to unknown error: An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+    at getErrorFromResponseBody (/private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/node_modules/devicefarm-web-nodejs-test/node_modules/webdriver/build/utils.js:371:10)
+    at Request._callback (/private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/node_modules/devicefarm-web-nodejs-test/node_modules/webdriver/build/request.js:122:64)
+    at Request.self.callback (/private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.<anonymous> (/private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at IncomingMessage.<anonymous> (/private/tmp/scratchEyyuKJ.scratch/test-packageZEx1Iy/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:277:13)
+[0-0] unknown error in "webdriver.io page should have the right title"
+An unknown server-side error occurred while processing the command. Original error: Remote debugger is not connected
+[0-0] 2019-07-19T12:53:12.535Z INFO webdriver: COMMAND deleteSession()
+[0-0] 2019-07-19T12:53:12.535Z INFO webdriver: [DELETE] http://127.0.0.1:4723/wd/hub/session/419eb470-964b-45ce-b2e9-0ea6c68c3dff
+[0-0] FAILED in undefined - /test/specs/basic.js
+2019-07-19T12:53:13.907Z INFO @wdio/cli:Launcher: Run onComplete hook
+
+ "dot" Reporter:
+F
+
+Spec Files:	 0 passed, 1 failed, 1 total (100% completed) in 00:02:21 
+
+ 
+[DEVICEFARM] ########### Entering phase post_test ###########
+ 
+ 
+[DEVICEFARM] ########### Finish executing testspec ###########
+ 
+[DEVICEFARM] ########### Setting upload permissions ###########
+ 
+ 
+[DEVICEFARM] Tearing down your device. Your tests report will come shortly.

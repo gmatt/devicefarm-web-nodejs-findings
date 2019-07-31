@@ -1,0 +1,180 @@
+[DEVICEFARM] Setting up your device. This usually takes 2-3 minutes.
+[DEVICEFARM] ########### Start executing testspec ###########
+ 
+ 
+[DEVICEFARM] ########### Entering phase install ###########
+ 
+[DeviceFarm] export APPIUM_VERSION=1.9.1
+[DeviceFarm] avm $APPIUM_VERSION
+  [36m    exists[0m : [90m1.9.1[0m
+[DeviceFarm] ln -s /usr/local/avm/versions/$APPIUM_VERSION/node_modules/.bin/appium  /usr/local/avm/versions/$APPIUM_VERSION/node_modules/appium/bin/appium.js
+ln: /usr/local/avm/versions/1.9.1/node_modules/appium/bin/appium.js: File exists
+[DeviceFarm] echo "Navigate to test package directory"
+Navigate to test package directory
+[DeviceFarm] cd $DEVICEFARM_TEST_PACKAGE_PATH
+[DeviceFarm] npm install *.tgz
+
+> fibers@4.0.1 install /private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/fibers
+> node build.js || nodejs build.js
+
+  CXX(target) Release/obj.target/fibers/src/fibers.o
+  CXX(target) Release/obj.target/fibers/src/coroutine.o
+  CC(target) Release/obj.target/fibers/src/libcoro/coro.o
+  SOLINK_MODULE(target) Release/fibers.node
+Installed in `/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/fibers/bin/darwin-x64-67/fibers.node`
+npm WARN saveError ENOENT: no such file or directory, open '/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/package.json'
+npm WARN test-packagetkXYOF No description
+npm WARN test-packagetkXYOF No repository field.
+npm WARN test-packagetkXYOF No README data
+npm WARN test-packagetkXYOF No license field.
+
++ devicefarm-web-nodejs-test@1.0.0
+added 347 packages from 655 contributors and audited 1456 packages in 59.783s
+found 0 vulnerabilities
+
+ 
+[DEVICEFARM] ########### Entering phase pre_test ###########
+ 
+[DeviceFarm] if [ $DEVICEFARM_DEVICE_PLATFORM_NAME = "Android" ]; then echo "Start appium server for android"; (appium --log-timestamp --browser-name Chrome --device-name $DEVICEFARM_DEVICE_NAME --platform-name $DEVICEFARM_DEVICE_PLATFORM_NAME --udid $DEVICEFARM_DEVICE_UDID --chromedriver-executable $DEVICEFARM_CHROMEDRIVER_EXECUTABLE  >> $DEVICEFARM_LOG_DIR/appiumlog.txt 2>&1 &); fi
+[DeviceFarm] if [ $DEVICEFARM_DEVICE_PLATFORM_NAME = "iOS" ]; then echo "Start appium server for iOS"; (appium --log-timestamp --browser-name Safari --device-name $DEVICEFARM_DEVICE_NAME --platform-name $DEVICEFARM_DEVICE_PLATFORM_NAME --udid $DEVICEFARM_DEVICE_UDID --automation-name XCUITest --default-capabilities "{\"usePrebuiltWDA\": true, \"derivedDataPath\":\"$DEVICEFARM_WDA_DERIVED_DATA_PATH_V1\"}" >> $DEVICEFARM_LOG_DIR/appiumlog.txt 2>&1 &); fi
+Start appium server for iOS
+[DeviceFarm] start_appium_timeout=0; while [ true ]; do
+    if [ $start_appium_timeout -gt 60 ];
+    then
+        echo "appium server never started in 60 seconds. Exiting";
+        exit 1;
+    fi;
+    grep -i "Appium REST http interface listener started on 0.0.0.0:4723" $DEVICEFARM_LOG_DIR/appiumlog.txt >> /dev/null 2>&1;
+    if [ $? -eq 0 ];
+    then
+        echo "Appium REST http interface listener started on 0.0.0.0:4723";
+        break;
+    else
+        echo "Waiting for appium server to start. Sleeping for 1 second";
+        sleep 1;
+        start_appium_timeout=$((start_appium_timeout+1));
+    fi;
+done; 
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Appium REST http interface listener started on 0.0.0.0:4723
+ 
+[DEVICEFARM] ########### Entering phase test ###########
+ 
+[DeviceFarm] echo "Navigate to test source code"
+Navigate to test source code
+[DeviceFarm] cd $DEVICEFARM_TEST_PACKAGE_PATH/node_modules/*
+[DeviceFarm] echo "Start Appium Node test"
+Start Appium Node test
+[DeviceFarm] ./node_modules/.bin/wdio wdio.conf.js
+
+Execution of 1 spec files started at 2019-07-19T12:59:47.094Z
+
+2019-07-19T12:59:47.097Z INFO @wdio/cli:Launcher: Run onPrepare hook
+2019-07-19T12:59:47.100Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
+[0-0] RUNNING in undefined - /test/specs/basic.js
+[0-0] 2019-07-19T12:59:48.184Z INFO @wdio/local-runner: Run worker command: run
+[0-0] 2019-07-19T12:59:48.402Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+[0-0] 2019-07-19T12:59:48.403Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:05:27.152Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:05:27.152Z INFO webdriver: Retrying 1/10
+2019-07-19T13:05:27.152Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:05:27.152Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:07:08.063Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:07:08.063Z INFO webdriver: Retrying 2/10
+2019-07-19T13:07:08.064Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:07:08.064Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:08:48.614Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:08:48.614Z INFO webdriver: Retrying 3/10
+2019-07-19T13:08:48.614Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:08:48.614Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:10:29.158Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:10:29.159Z INFO webdriver: Retrying 4/10
+2019-07-19T13:10:29.159Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:10:29.159Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:12:09.400Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:12:09.400Z INFO webdriver: Retrying 5/10
+2019-07-19T13:12:09.400Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:12:09.400Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:13:50.223Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:13:50.223Z INFO webdriver: Retrying 6/10
+2019-07-19T13:13:50.223Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:13:50.223Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:15:30.211Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:15:30.211Z INFO webdriver: Retrying 7/10
+2019-07-19T13:15:30.211Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:15:30.211Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:17:10.861Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:17:10.862Z INFO webdriver: Retrying 8/10
+2019-07-19T13:17:10.862Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:17:10.862Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:18:51.566Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:18:51.567Z INFO webdriver: Retrying 9/10
+2019-07-19T13:18:51.567Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:18:51.567Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:20:34.016Z WARN webdriver: Request failed due to An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+[0-0] 2019-07-19T13:20:34.016Z INFO webdriver: Retrying 10/10
+2019-07-19T13:20:34.016Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:20:34.016Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:22:18.663Z ERROR webdriver: Request failed due to unknown error: An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+    at getErrorFromResponseBody (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/webdriver/build/utils.js:371:10)
+    at Request._callback (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/webdriver/build/request.js:122:64)
+    at Request.self.callback (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.<anonymous> (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at IncomingMessage.<anonymous> (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:277:13)
+2019-07-19T13:22:18.667Z ERROR @wdio/runner: unknown error: An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!
+    at getErrorFromResponseBody (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/webdriver/build/utils.js:371:10)
+    at Request._callback (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/webdriver/build/request.js:122:64)
+    at Request.self.callback (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.<anonymous> (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at IncomingMessage.<anonymous> (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:277:13)
+2019-07-19T13:22:18.668Z ERROR @wdio/local-runner: Failed launching test session: TypeError: Cannot read property 'capabilities' of null
+    at Runner.run (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/@wdio/runner/build/index.js:91:74)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+0-0 worker error { name: 'unknown error',
+  message:
+   'An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!',
+  stack:
+   'unknown error: An unknown server-side error occurred while processing the command. Original error: Could not navigate to webview; there are none!\n    at getErrorFromResponseBody (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/webdriver/build/utils.js:371:10)\n    at Request._callback (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/webdriver/build/request.js:122:64)\n    at Request.self.callback (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:189:13)\n    at Request.EventEmitter.emit (domain.js:441:20)\n    at Request.<anonymous> (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:1161:10)\n    at Request.emit (events.js:189:13)\n    at Request.EventEmitter.emit (domain.js:441:20)\n    at IncomingMessage.<anonymous> (/private/tmp/scratchLQAEYh.scratch/test-packagetkXYOF/node_modules/devicefarm-web-nodejs-test/node_modules/request/request.js:1083:12)\n    at Object.onceWrapper (events.js:277:13)' }
+[0-0] FAILED in undefined - /test/specs/basic.js
+2019-07-19T13:22:18.721Z INFO @wdio/cli:Launcher: Run onComplete hook
+
+Spec Files:	 0 passed, 1 failed, 1 total (100% completed) in 00:22:31 
+
+ 
+[DEVICEFARM] ########### Entering phase post_test ###########
+ 
+ 
+[DEVICEFARM] ########### Finish executing testspec ###########
+ 
+[DEVICEFARM] ########### Setting upload permissions ###########
+ 
+ 
+[DEVICEFARM] Tearing down your device. Your tests report will come shortly.

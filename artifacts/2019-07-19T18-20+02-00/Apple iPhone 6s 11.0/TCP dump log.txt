@@ -1,0 +1,42 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on wlan0, link-type EN10MB (Ethernet), capture size 262144 bytes
+16:38:02.204193 IP ip-192-168-1-10.us-west-2.compute.internal.51936 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 2879263460:2879263491, ack 19927515, win 2048, options [nop,nop,TS val 373447794 ecr 2160680271], length 31
+16:38:02.204210 IP ip-192-168-1-10.us-west-2.compute.internal.51936 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 31, ack 1, win 2048, options [nop,nop,TS val 373447794 ecr 2160680271], length 0
+16:38:02.218015 IP a23-35-96-63.deploy.static.akamaitechnologies.com.https > ip-192-168-1-10.us-west-2.compute.internal.51936: Flags [P.], seq 1:32, ack 32, win 243, options [nop,nop,TS val 2160711255 ecr 373447794], length 31
+16:38:02.218198 IP a23-35-96-63.deploy.static.akamaitechnologies.com.https > ip-192-168-1-10.us-west-2.compute.internal.51936: Flags [R.], seq 32, ack 32, win 243, options [nop,nop,TS val 2160711255 ecr 373447794], length 0
+16:38:02.219952 IP ip-192-168-1-10.us-west-2.compute.internal.51936 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [R], seq 2879263492, win 0, length 0
+16:38:11.212554 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [SEW], seq 2168219461, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 373456603 ecr 0,sackOK,eol], length 0
+16:38:11.226941 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [S.E], seq 2748903048, ack 2168219462, win 28960, options [mss 1360,sackOK,TS val 4161698948 ecr 373456603,nop,wscale 8], length 0
+16:38:11.228396 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 373456617 ecr 4161698948], length 0
+16:38:11.230193 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [P.], seq 1:518, ack 1, win 2064, options [nop,nop,TS val 373456617 ecr 4161698948], length 517
+16:38:11.244355 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [.], ack 518, win 118, options [nop,nop,TS val 4161698965 ecr 373456617], length 0
+16:38:11.244659 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [.], seq 1:1349, ack 518, win 118, options [nop,nop,TS val 4161698965 ecr 373456617], length 1348
+16:38:11.244716 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [.], seq 1349:2697, ack 518, win 118, options [nop,nop,TS val 4161698965 ecr 373456617], length 1348
+16:38:11.244749 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [.], seq 2697:4045, ack 518, win 118, options [nop,nop,TS val 4161698965 ecr 373456617], length 1348
+16:38:11.244778 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [P.], seq 4045:4097, ack 518, win 118, options [nop,nop,TS val 4161698965 ecr 373456617], length 52
+16:38:11.246320 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [.], seq 4097:5445, ack 518, win 118, options [nop,nop,TS val 4161698966 ecr 373456617], length 1348
+16:38:11.246380 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [.], seq 5445:6793, ack 518, win 118, options [nop,nop,TS val 4161698966 ecr 373456617], length 1348
+16:38:11.247039 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 2697, win 2022, options [nop,nop,TS val 373456632 ecr 4161698965], length 0
+16:38:11.247065 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 4097, win 2000, options [nop,nop,TS val 373456632 ecr 4161698965], length 0
+16:38:11.248008 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [P.], seq 6793:7053, ack 518, win 118, options [nop,nop,TS val 4161698967 ecr 373456617], length 260
+16:38:11.250018 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 6793, win 1958, options [nop,nop,TS val 373456634 ecr 4161698966], length 0
+16:38:11.250035 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 6793, win 2048, options [nop,nop,TS val 373456635 ecr 4161698966], length 0
+16:38:11.258841 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 7053, win 2043, options [nop,nop,TS val 373456643 ecr 4161698967], length 0
+16:38:11.292958 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [P.], seq 518:611, ack 7053, win 2048, options [nop,nop,TS val 373456672 ecr 4161698967], length 93
+16:38:11.307433 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [P.], seq 7053:7104, ack 611, win 118, options [nop,nop,TS val 4161699028 ecr 373456672], length 51
+16:38:11.308814 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 7104, win 2047, options [nop,nop,TS val 373456685 ecr 4161699028], length 0
+16:38:11.569164 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [P.], seq 611:816, ack 7104, win 2048, options [nop,nop,TS val 373456928 ecr 4161699028], length 205
+16:38:11.585925 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [P.], seq 7104:7832, ack 816, win 122, options [nop,nop,TS val 4161699307 ecr 373456928], length 728
+16:38:11.586196 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [.], seq 7832:9180, ack 816, win 122, options [nop,nop,TS val 4161699307 ecr 373456928], length 1348
+16:38:11.586253 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [P.], seq 9180:10117, ack 816, win 122, options [nop,nop,TS val 4161699307 ecr 373456928], length 937
+16:38:11.587474 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 7832, win 2036, options [nop,nop,TS val 373456949 ecr 4161699307], length 0
+16:38:11.587947 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 10117, win 2000, options [nop,nop,TS val 373456949 ecr 4161699307], length 0
+16:38:11.588449 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [.], ack 10117, win 2048, options [nop,nop,TS val 373456949 ecr 4161699307], length 0
+16:38:13.499672 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [P.], seq 816:847, ack 10117, win 2048, options [nop,nop,TS val 373458773 ecr 4161699307], length 31
+16:38:13.502863 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [F.], seq 847, ack 10117, win 2048, options [nop,nop,TS val 373458776 ecr 4161699307], length 0
+16:38:13.514550 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [P.], seq 10117:10148, ack 847, win 122, options [nop,nop,TS val 4161701235 ecr 373458773], length 31
+16:38:13.514724 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [F.], seq 10148, ack 847, win 122, options [nop,nop,TS val 4161701235 ecr 373458773], length 0
+16:38:13.517346 IP ussea4-vip-bx-002.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.52034: Flags [.], ack 848, win 122, options [nop,nop,TS val 4161701238 ecr 373458776], length 0
+16:38:13.517431 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [R], seq 2168220308, win 0, length 0
+16:38:13.517453 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [R], seq 2168220308, win 0, length 0
+16:38:13.518557 IP ip-192-168-1-10.us-west-2.compute.internal.52034 > ussea4-vip-bx-002.aaplimg.com.https: Flags [R], 

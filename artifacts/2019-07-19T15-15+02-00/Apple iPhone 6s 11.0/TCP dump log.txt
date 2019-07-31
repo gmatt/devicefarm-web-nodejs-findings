@@ -1,0 +1,45 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on wlan0, link-type EN10MB (Ethernet), capture size 262144 bytes
+13:23:47.102639 IP ip-192-168-1-10.us-west-2.compute.internal.50340 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 2907793774:2907793805, ack 9169324, win 2048, options [nop,nop,TS val 882585321 ecr 2149025717], length 31
+13:23:47.102664 IP ip-192-168-1-10.us-west-2.compute.internal.50340 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 31, ack 1, win 2048, options [nop,nop,TS val 882585322 ecr 2149025717], length 0
+13:23:47.117668 IP a23-35-96-63.deploy.static.akamaitechnologies.com.https > ip-192-168-1-10.us-west-2.compute.internal.50340: Flags [P.], seq 1:32, ack 32, win 243, options [nop,nop,TS val 2149056050 ecr 882585321], length 31
+13:23:47.117843 IP a23-35-96-63.deploy.static.akamaitechnologies.com.https > ip-192-168-1-10.us-west-2.compute.internal.50340: Flags [R.], seq 32, ack 32, win 243, options [nop,nop,TS val 2149056050 ecr 882585321], length 0
+13:23:47.122986 IP ip-192-168-1-10.us-west-2.compute.internal.50340 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [R], seq 2907793806, win 0, length 0
+13:23:47.577551 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50342: Flags [P.], seq 3679550570:3679550601, ack 326911687, win 61, options [nop,nop,TS val 3615713844 ecr 882557152], length 31
+13:23:47.577733 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50342: Flags [F.], seq 31, ack 1, win 61, options [nop,nop,TS val 3615713844 ecr 882557152], length 0
+13:23:47.635931 IP ip-192-168-1-10.us-west-2.compute.internal.50342 > api-sea.smoot.apple.com.https: Flags [.], ack 31, win 2047, options [nop,nop,TS val 882585853 ecr 3615713844], length 0
+13:23:47.635954 IP ip-192-168-1-10.us-west-2.compute.internal.50342 > api-sea.smoot.apple.com.https: Flags [.], ack 32, win 2047, options [nop,nop,TS val 882585853 ecr 3615713844], length 0
+13:23:47.636622 IP ip-192-168-1-10.us-west-2.compute.internal.50342 > api-sea.smoot.apple.com.https: Flags [P.], seq 1:32, ack 32, win 2048, options [nop,nop,TS val 882585854 ecr 3615713844], length 31
+13:23:47.637412 IP ip-192-168-1-10.us-west-2.compute.internal.50342 > api-sea.smoot.apple.com.https: Flags [F.], seq 32, ack 32, win 2048, options [nop,nop,TS val 882585855 ecr 3615713844], length 0
+13:23:47.651785 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50342: Flags [R], seq 3679550602, win 0, length 0
+13:23:47.652462 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50342: Flags [R], seq 3679550602, win 0, length 0
+13:23:47.849636 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50343: Flags [P.], seq 2691448657:2691448688, ack 868760313, win 61, options [nop,nop,TS val 3006725296 ecr 882557398], length 31
+13:23:47.849825 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50343: Flags [F.], seq 31, ack 1, win 61, options [nop,nop,TS val 3006725296 ecr 882557398], length 0
+13:23:47.852726 IP ip-192-168-1-10.us-west-2.compute.internal.50343 > api-den.smoot.apple.com.https: Flags [.], ack 31, win 2047, options [nop,nop,TS val 882586065 ecr 3006725296], length 0
+13:23:47.852743 IP ip-192-168-1-10.us-west-2.compute.internal.50343 > api-den.smoot.apple.com.https: Flags [.], ack 32, win 2047, options [nop,nop,TS val 882586065 ecr 3006725296], length 0
+13:23:47.852763 IP ip-192-168-1-10.us-west-2.compute.internal.50343 > api-den.smoot.apple.com.https: Flags [P.], seq 1:32, ack 32, win 2048, options [nop,nop,TS val 882586066 ecr 3006725296], length 31
+13:23:47.854713 IP ip-192-168-1-10.us-west-2.compute.internal.50343 > api-den.smoot.apple.com.https: Flags [F.], seq 32, ack 32, win 2048, options [nop,nop,TS val 882586067 ecr 3006725296], length 0
+13:23:47.894257 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50343: Flags [R], seq 2691448689, win 0, length 0
+13:23:47.895924 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50343: Flags [R], seq 2691448689, win 0, length 0
+13:23:49.897024 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [SEW], seq 1122100076, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 882587997 ecr 0,sackOK,eol], length 0
+13:23:49.912247 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [S.E], seq 1351678512, ack 1122100077, win 28960, options [mss 1360,nop,nop,TS val 1958135320 ecr 882587997,nop,wscale 5], length 0
+13:23:49.914839 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 882588018 ecr 1958135320], length 0
+13:23:49.982476 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [P.], seq 1:244, ack 1, win 2064, options [nop,nop,TS val 882588085 ecr 1958135320], length 243
+13:23:49.997647 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [.], ack 244, win 939, options [nop,nop,TS val 1958135405 ecr 882588085], length 0
+13:23:49.999977 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [.], seq 1:1349, ack 244, win 939, options [nop,nop,TS val 1958135408 ecr 882588085], length 1348
+13:23:50.000034 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [.], seq 1349:2697, ack 244, win 939, options [nop,nop,TS val 1958135408 ecr 882588085], length 1348
+13:23:50.001188 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [.], seq 2697:4045, ack 244, win 939, options [nop,nop,TS val 1958135409 ecr 882588085], length 1348
+13:23:50.001238 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [.], seq 4045:5393, ack 244, win 939, options [nop,nop,TS val 1958135409 ecr 882588085], length 1348
+13:23:50.002470 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [.], seq 5393:6741, ack 244, win 939, options [nop,nop,TS val 1958135410 ecr 882588085], length 1348
+13:23:50.002563 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [.], seq 6741:8089, ack 244, win 939, options [nop,nop,TS val 1958135410 ecr 882588085], length 1348
+13:23:50.002725 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [.], ack 2697, win 2022, options [nop,nop,TS val 882588103 ecr 1958135408], length 0
+13:23:50.003273 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [.], ack 5393, win 1979, options [nop,nop,TS val 882588104 ecr 1958135409], length 0
+13:23:50.004151 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [P.], seq 8089:8994, ack 244, win 939, options [nop,nop,TS val 1958135411 ecr 882588085], length 905
+13:23:50.005339 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [.], ack 8089, win 1937, options [nop,nop,TS val 882588105 ecr 1958135410], length 0
+13:23:50.005619 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [.], ack 8994, win 1923, options [nop,nop,TS val 882588106 ecr 1958135411], length 0
+13:23:50.078240 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [.], ack 8994, win 2048, options [nop,nop,TS val 882588175 ecr 1958135411], length 0
+13:23:50.198668 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [P.], seq 244:337, ack 8994, win 2048, options [nop,nop,TS val 882588286 ecr 1958135411], length 93
+13:23:50.214141 IP 17.248.130.142.https > ip-192-168-1-10.us-west-2.compute.internal.50448: Flags [P.], seq 8994:9045, ack 337, win 939, options [nop,nop,TS val 1958135622 ecr 882588286], length 51
+13:23:50.217033 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [.], ack 9045, win 2047, options [nop,nop,TS val 882588304 ecr 1958135622], length 0
+13:23:50.218852 IP ip-192-168-1-10.us-west-2.compute.internal.50448 > 17.248.130.142.https: Flags [P.], seq 337:592, ack 9045, win 2048, options [nop,nop,TS val 882588306 ecr 1958135622], length 255
+13:23:50.256661 IP 17.248.130.142.h

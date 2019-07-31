@@ -1,0 +1,23 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on wlan0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:33:41.571099 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [SEW], seq 1633730169, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1047879772 ecr 0,sackOK,eol], length 0
+15:33:41.612733 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.51524: Flags [S.E], seq 2893757459, ack 1633730170, win 28960, options [mss 1360,nop,nop,TS val 2603874099 ecr 1047879772,nop,wscale 9], length 0
+15:33:41.619458 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 1047879821 ecr 2603874099], length 0
+15:33:41.619475 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [P.], seq 1:247, ack 1, win 2064, options [nop,nop,TS val 1047879824 ecr 2603874099], length 246
+15:33:41.662019 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.51524: Flags [.], seq 1:1349, ack 247, win 59, options [nop,nop,TS val 2603874148 ecr 1047879824], length 1348
+15:33:41.662137 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.51524: Flags [.], seq 1349:2697, ack 247, win 59, options [nop,nop,TS val 2603874148 ecr 1047879824], length 1348
+15:33:41.662171 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.51524: Flags [P.], seq 2697:3632, ack 247, win 59, options [nop,nop,TS val 2603874148 ecr 1047879824], length 935
+15:33:41.693985 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [.], ack 3632, win 2007, options [nop,nop,TS val 1047879874 ecr 2603874148], length 0
+15:33:41.756989 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [P.], seq 247:340, ack 3632, win 2048, options [nop,nop,TS val 1047879951 ecr 2603874148], length 93
+15:33:41.798708 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.51524: Flags [P.], seq 3632:3683, ack 340, win 59, options [nop,nop,TS val 2603874285 ecr 1047879951], length 51
+15:33:41.812723 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [.], ack 3683, win 2047, options [nop,nop,TS val 1047880009 ecr 2603874285], length 0
+15:33:41.828736 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [P.], seq 340:781, ack 3683, win 2048, options [nop,nop,TS val 1047880022 ecr 2603874285], length 441
+15:33:41.873256 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.51524: Flags [P.], seq 3683:3778, ack 781, win 61, options [nop,nop,TS val 2603874359 ecr 1047880022], length 95
+15:33:41.879607 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [.], ack 3778, win 2046, options [nop,nop,TS val 1047880073 ecr 2603874359], length 0
+15:33:42.936449 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [P.], seq 781:812, ack 3778, win 2048, options [nop,nop,TS val 1047881089 ecr 2603874359], length 31
+15:33:42.936464 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [F.], seq 812, ack 3778, win 2048, options [nop,nop,TS val 1047881091 ecr 2603874359], length 0
+15:33:42.978241 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.51524: Flags [P.], seq 3778:3809, ack 812, win 61, options [nop,nop,TS val 2603875464 ecr 1047881089], length 31
+15:33:42.978462 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.51524: Flags [F.], seq 3809, ack 813, win 61, options [nop,nop,TS val 2603875464 ecr 1047881091], length 0
+15:33:42.980115 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [R], seq 1633730981, win 0, length 0
+15:33:42.980414 IP ip-192-168-1-10.us-west-2.compute.internal.51524 > api-den.smoot.apple.com.https: Flags [R], seq 1633730982, win 0, length 0
+15:33:42.990979 IP ip-192-168-1-10.us-west-2.compute.internal.51525 > api-den.smoot.apple.com.http

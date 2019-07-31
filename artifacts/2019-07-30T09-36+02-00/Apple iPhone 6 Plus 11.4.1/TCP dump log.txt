@@ -1,0 +1,63 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on wlan0, link-type EN10MB (Ethernet), capture size 262144 bytes
+07:43:06.200392 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [SEW], seq 3755413955, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 364976597 ecr 0,sackOK,eol], length 0
+07:43:06.210024 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [SEW], seq 3424686143, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 364976606 ecr 0,sackOK,eol], length 0
+07:43:06.258689 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57884: Flags [S.E], seq 1269072136, ack 3755413956, win 28960, options [mss 1360,nop,nop,TS val 1719745854 ecr 364976597,nop,wscale 9], length 0
+07:43:06.264152 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 364976657 ecr 1719745854], length 0
+07:43:06.265761 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [P.], seq 1:249, ack 1, win 2064, options [nop,nop,TS val 364976661 ecr 1719745854], length 248
+07:43:06.268359 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57885: Flags [S.E], seq 3580322664, ack 3424686144, win 28960, options [mss 1360,nop,nop,TS val 1651565860 ecr 364976606,nop,wscale 9], length 0
+07:43:06.273252 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 364976665 ecr 1651565860], length 0
+07:43:06.274605 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [P.], seq 1:249, ack 1, win 2064, options [nop,nop,TS val 364976669 ecr 1651565860], length 248
+07:43:06.325373 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57884: Flags [.], seq 1:1349, ack 249, win 59, options [nop,nop,TS val 1719745921 ecr 364976661], length 1348
+07:43:06.325482 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57884: Flags [.], seq 1349:2697, ack 249, win 59, options [nop,nop,TS val 1719745921 ecr 364976661], length 1348
+07:43:06.325516 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57884: Flags [P.], seq 2697:3632, ack 249, win 59, options [nop,nop,TS val 1719745921 ecr 364976661], length 935
+07:43:06.328875 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [.], ack 2697, win 2026, options [nop,nop,TS val 364976722 ecr 1719745921], length 0
+07:43:06.328914 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [.], ack 3632, win 2012, options [nop,nop,TS val 364976722 ecr 1719745921], length 0
+07:43:06.334065 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57885: Flags [.], seq 1:1349, ack 249, win 59, options [nop,nop,TS val 1651565926 ecr 364976669], length 1348
+07:43:06.334178 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57885: Flags [.], seq 1349:2697, ack 249, win 59, options [nop,nop,TS val 1651565926 ecr 364976669], length 1348
+07:43:06.334215 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57885: Flags [P.], seq 2697:3632, ack 249, win 59, options [nop,nop,TS val 1651565926 ecr 364976669], length 935
+07:43:06.424285 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [P.], seq 249:342, ack 3632, win 2048, options [nop,nop,TS val 364976818 ecr 1719745921], length 93
+07:43:06.426241 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [.], ack 2697, win 2022, options [nop,nop,TS val 364976818 ecr 1651565926], length 0
+07:43:06.426263 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [.], ack 3632, win 2007, options [nop,nop,TS val 364976818 ecr 1651565926], length 0
+07:43:06.482554 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [P.], seq 249:342, ack 3632, win 2048, options [nop,nop,TS val 364976876 ecr 1651565926], length 93
+07:43:06.483049 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57884: Flags [P.], seq 3632:3683, ack 342, win 59, options [nop,nop,TS val 1719746078 ecr 364976818], length 51
+07:43:06.486147 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [.], ack 3683, win 2047, options [nop,nop,TS val 364976878 ecr 1719746078], length 0
+07:43:06.497955 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [P.], seq 342:818, ack 3683, win 2048, options [nop,nop,TS val 364976890 ecr 1719746078], length 476
+07:43:06.541060 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57885: Flags [P.], seq 3632:3683, ack 342, win 59, options [nop,nop,TS val 1651566133 ecr 364976876], length 51
+07:43:06.551323 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [.], ack 3683, win 2047, options [nop,nop,TS val 364976942 ecr 1651566133], length 0
+07:43:06.558691 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57884: Flags [P.], seq 3683:3778, ack 818, win 61, options [nop,nop,TS val 1719746154 ecr 364976890], length 95
+07:43:06.561277 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [.], ack 3778, win 2046, options [nop,nop,TS val 364976952 ecr 1719746154], length 0
+07:43:06.566141 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [P.], seq 342:820, ack 3683, win 2048, options [nop,nop,TS val 364976956 ecr 1651566133], length 478
+07:43:06.626327 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57885: Flags [P.], seq 3683:3778, ack 820, win 61, options [nop,nop,TS val 1651566218 ecr 364976956], length 95
+07:43:06.629513 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [.], ack 3778, win 2046, options [nop,nop,TS val 364977018 ecr 1651566218], length 0
+07:43:07.613379 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [P.], seq 818:849, ack 3778, win 2048, options [nop,nop,TS val 364977976 ecr 1719746154], length 31
+07:43:07.613397 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [F.], seq 849, ack 3778, win 2048, options [nop,nop,TS val 364977978 ecr 1719746154], length 0
+07:43:07.671965 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57884: Flags [P.], seq 3778:3809, ack 850, win 61, options [nop,nop,TS val 1719747267 ecr 364977976], length 31
+07:43:07.672139 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57884: Flags [F.], seq 3809, ack 850, win 61, options [nop,nop,TS val 1719747267 ecr 364977976], length 0
+07:43:07.677559 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [R], seq 3755414805, win 0, length 0
+07:43:07.678057 IP ip-192-168-1-10.us-west-2.compute.internal.57884 > api-msp.smoot.apple.com.https: Flags [R], seq 3755414805, win 0, length 0
+07:43:08.702746 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [P.], seq 820:851, ack 3778, win 2048, options [nop,nop,TS val 364979084 ecr 1651566218], length 31
+07:43:08.702764 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [F.], seq 851, ack 3778, win 2048, options [nop,nop,TS val 364979086 ecr 1651566218], length 0
+07:43:08.761343 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57885: Flags [P.], seq 3778:3809, ack 852, win 61, options [nop,nop,TS val 1651568353 ecr 364979084], length 31
+07:43:08.761530 IP api-msp.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.57885: Flags [F.], seq 3809, ack 852, win 61, options [nop,nop,TS val 1651568353 ecr 364979084], length 0
+07:43:08.765390 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [R], seq 3424686995, win 0, length 0
+07:43:08.765416 IP ip-192-168-1-10.us-west-2.compute.internal.57885 > api-msp.smoot.apple.com.https: Flags [R], seq 3424686995, win 0, length 0
+07:43:21.582979 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [SEW], seq 2746956025, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 364992096 ecr 0,sackOK,eol], length 0
+07:43:21.599783 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [S.E], seq 1924950656, ack 2746956026, win 28960, options [mss 1360,nop,nop,TS val 1303996427 ecr 364992096,nop,wscale 5], length 0
+07:43:21.607798 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 364992115 ecr 1303996427], length 0
+07:43:21.609909 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [P.], seq 1:246, ack 1, win 2064, options [nop,nop,TS val 364992121 ecr 1303996427], length 245
+07:43:21.626633 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [.], ack 246, win 939, options [nop,nop,TS val 1303996453 ecr 364992121], length 0
+07:43:21.629253 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [.], seq 1:1349, ack 246, win 939, options [nop,nop,TS val 1303996456 ecr 364992121], length 1348
+07:43:21.629309 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [.], seq 1349:2697, ack 246, win 939, options [nop,nop,TS val 1303996456 ecr 364992121], length 1348
+07:43:21.630871 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [.], seq 2697:4045, ack 246, win 939, options [nop,nop,TS val 1303996458 ecr 364992121], length 1348
+07:43:21.630915 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [.], seq 4045:5393, ack 246, win 939, options [nop,nop,TS val 1303996458 ecr 364992121], length 1348
+07:43:21.632678 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [.], seq 5393:6741, ack 246, win 939, options [nop,nop,TS val 1303996459 ecr 364992121], length 1348
+07:43:21.632755 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [.], seq 6741:8089, ack 246, win 939, options [nop,nop,TS val 1303996459 ecr 364992121], length 1348
+07:43:21.632840 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [.], ack 2697, win 2026, options [nop,nop,TS val 364992143 ecr 1303996456], length 0
+07:43:21.634208 IP se3-002-edge.icloud-content.com.https > ip-192-168-1-10.us-west-2.compute.internal.57886: Flags [P.], seq 8089:8994, ack 246, win 939, options [nop,nop,TS val 1303996461 ecr 364992121], length 905
+07:43:21.634133 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [.], ack 5393, win 2005, options [nop,nop,TS val 364992145 ecr 1303996458], length 0
+07:43:21.634377 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [.], ack 5393, win 2048, options [nop,nop,TS val 364992145 ecr 1303996458], length 0
+07:43:21.635768 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [.], ack 8089, win 2005, options [nop,nop,TS val 364992146 ecr 1303996459], length 0
+07:43:21.635791 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [.], ack 8089, win 2048, options [nop,nop,TS val 364992146 ecr 1303996459], length 0
+07:43:21.637050 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [.], ack 8994, win 2033, options [nop,nop,TS val 364992146 ecr 1303996461], length 0
+07:43:22.199091 IP ip-192-168-1-10.us-west-2.compute.internal.57886 > se3-002-edge.icloud-content.com.https: Flags [P.], seq 246:339, ack 8994, win 2

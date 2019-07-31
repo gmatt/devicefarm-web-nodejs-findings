@@ -1,0 +1,62 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on wlan0, link-type EN10MB (Ethernet), capture size 262144 bytes
+12:53:46.032565 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50177: Flags [P.], seq 3280362003:3280362034, ack 2490430361, win 61, options [nop,nop,TS val 3503943690 ecr 531426264], length 31
+12:53:46.032726 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50177: Flags [F.], seq 31, ack 1, win 61, options [nop,nop,TS val 3503943690 ecr 531426264], length 0
+12:53:46.049850 IP ip-192-168-1-10.us-west-2.compute.internal.50177 > api-sea.smoot.apple.com.https: Flags [.], ack 31, win 2047, options [nop,nop,TS val 531455366 ecr 3503943690], length 0
+12:53:46.049867 IP ip-192-168-1-10.us-west-2.compute.internal.50177 > api-sea.smoot.apple.com.https: Flags [.], ack 32, win 2047, options [nop,nop,TS val 531455366 ecr 3503943690], length 0
+12:53:46.053147 IP ip-192-168-1-10.us-west-2.compute.internal.50177 > api-sea.smoot.apple.com.https: Flags [P.], seq 1:32, ack 32, win 2048, options [nop,nop,TS val 531455369 ecr 3503943690], length 31
+12:53:46.055233 IP ip-192-168-1-10.us-west-2.compute.internal.50177 > api-sea.smoot.apple.com.https: Flags [F.], seq 32, ack 32, win 2048, options [nop,nop,TS val 531455370 ecr 3503943690], length 0
+12:53:46.067683 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50177: Flags [R], seq 3280362035, win 0, length 0
+12:53:46.069814 IP api-sea.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50177: Flags [R], seq 3280362035, win 0, length 0
+12:53:46.369813 IP ip-192-168-1-10.us-west-2.compute.internal.50176 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 1275035501:1275035532, ack 4037184825, win 2048, options [nop,nop,TS val 531455672 ecr 2637861915], length 31
+12:53:46.369837 IP ip-192-168-1-10.us-west-2.compute.internal.50176 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 31, ack 1, win 2048, options [nop,nop,TS val 531455673 ecr 2637861915], length 0
+12:53:46.385450 IP a23-35-96-63.deploy.static.akamaitechnologies.com.https > ip-192-168-1-10.us-west-2.compute.internal.50176: Flags [P.], seq 1:32, ack 32, win 243, options [nop,nop,TS val 2637892766 ecr 531455672], length 31
+12:53:46.385597 IP a23-35-96-63.deploy.static.akamaitechnologies.com.https > ip-192-168-1-10.us-west-2.compute.internal.50176: Flags [F.], seq 32, ack 32, win 243, options [nop,nop,TS val 2637892766 ecr 531455672], length 0
+12:53:46.388852 IP ip-192-168-1-10.us-west-2.compute.internal.50176 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [R], seq 1275035533, win 0, length 0
+12:53:46.388871 IP ip-192-168-1-10.us-west-2.compute.internal.50176 > a23-35-96-63.deploy.static.akamaitechnologies.com.https: Flags [R], seq 1275035533, win 0, length 0
+12:54:16.696078 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [SEW], seq 57431014, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 531485519 ecr 0,sackOK,eol], length 0
+12:54:16.696563 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [SEW], seq 2025500547, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 531485520 ecr 0,sackOK,eol], length 0
+12:54:16.735078 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50296: Flags [S.E], seq 2016008576, ack 57431015, win 28960, options [mss 1360,nop,nop,TS val 2600778574 ecr 531485519,nop,wscale 9], length 0
+12:54:16.737921 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50297: Flags [S.E], seq 2078362444, ack 2025500548, win 28960, options [mss 1360,nop,nop,TS val 2600778576 ecr 531485520,nop,wscale 9], length 0
+12:54:16.739994 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 531485560 ecr 2600778574], length 0
+12:54:16.740020 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [P.], seq 1:247, ack 1, win 2064, options [nop,nop,TS val 531485560 ecr 2600778574], length 246
+12:54:16.742236 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 531485562 ecr 2600778576], length 0
+12:54:16.742267 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [P.], seq 1:247, ack 1, win 2064, options [nop,nop,TS val 531485563 ecr 2600778576], length 246
+12:54:16.780714 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50296: Flags [.], seq 1:1349, ack 247, win 59, options [nop,nop,TS val 2600778619 ecr 531485560], length 1348
+12:54:16.780904 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50296: Flags [.], seq 1349:2697, ack 247, win 59, options [nop,nop,TS val 2600778619 ecr 531485560], length 1348
+12:54:16.780953 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50296: Flags [P.], seq 2697:3632, ack 247, win 59, options [nop,nop,TS val 2600778619 ecr 531485560], length 935
+12:54:16.784018 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [.], ack 2697, win 2022, options [nop,nop,TS val 531485600 ecr 2600778619], length 0
+12:54:16.784046 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [.], ack 3632, win 2007, options [nop,nop,TS val 531485600 ecr 2600778619], length 0
+12:54:16.785321 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50297: Flags [.], seq 1:1349, ack 247, win 59, options [nop,nop,TS val 2600778623 ecr 531485563], length 1348
+12:54:16.785472 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50297: Flags [.], seq 1349:2697, ack 247, win 59, options [nop,nop,TS val 2600778623 ecr 531485563], length 1348
+12:54:16.785512 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50297: Flags [P.], seq 2697:3632, ack 247, win 59, options [nop,nop,TS val 2600778623 ecr 531485563], length 935
+12:54:16.788927 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [.], ack 2697, win 2022, options [nop,nop,TS val 531485604 ecr 2600778623], length 0
+12:54:16.788953 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [.], ack 3632, win 2007, options [nop,nop,TS val 531485604 ecr 2600778623], length 0
+12:54:16.798502 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [P.], seq 247:340, ack 3632, win 2048, options [nop,nop,TS val 531485612 ecr 2600778619], length 93
+12:54:16.810260 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [P.], seq 247:340, ack 3632, win 2048, options [nop,nop,TS val 531485623 ecr 2600778623], length 93
+12:54:16.837901 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50296: Flags [P.], seq 3632:3683, ack 340, win 59, options [nop,nop,TS val 2600778677 ecr 531485612], length 51
+12:54:16.839380 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [.], ack 3683, win 2047, options [nop,nop,TS val 531485648 ecr 2600778677], length 0
+12:54:16.850995 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [P.], seq 340:783, ack 3683, win 2048, options [nop,nop,TS val 531485651 ecr 2600778677], length 443
+12:54:16.852901 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50297: Flags [P.], seq 3632:3683, ack 340, win 59, options [nop,nop,TS val 2600778691 ecr 531485623], length 51
+12:54:16.856016 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [.], ack 3683, win 2047, options [nop,nop,TS val 531485662 ecr 2600778691], length 0
+12:54:16.857281 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [P.], seq 340:781, ack 3683, win 2048, options [nop,nop,TS val 531485664 ecr 2600778691], length 441
+12:54:16.891438 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50296: Flags [P.], seq 3683:4027, ack 783, win 61, options [nop,nop,TS val 2600778730 ecr 531485651], length 344
+12:54:16.892976 IP ip-192-168-1-10.us-west-2.compute.internal.50296 > api-den.smoot.apple.com.https: Flags [.], ack 4027, win 2042, options [nop,nop,TS val 531485698 ecr 2600778730], length 0
+12:54:16.901976 IP api-den.smoot.apple.com.https > ip-192-168-1-10.us-west-2.compute.internal.50297: Flags [P.], seq 3683:4025, ack 781, win 61, options [nop,nop,TS val 2600778740 ecr 531485664], length 342
+12:54:16.903487 IP ip-192-168-1-10.us-west-2.compute.internal.50297 > api-den.smoot.apple.com.https: Flags [.], ack 4025, win 2042, options [nop,nop,TS val 531485707 ecr 2600778740], length 0
+12:54:16.916389 IP ip-192-168-1-10.us-west-2.compute.internal.50300 > ussea4-vip-bx-003.aaplimg.com.https: Flags [SEW], seq 3015786231, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 531485717 ecr 0,sackOK,eol], length 0
+12:54:16.931280 IP ussea4-vip-bx-003.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.50300: Flags [S.E], seq 2357381723, ack 3015786232, win 28960, options [mss 1360,sackOK,TS val 1060157824 ecr 531485717,nop,wscale 8], length 0
+12:54:16.932773 IP ip-192-168-1-10.us-west-2.compute.internal.50300 > ussea4-vip-bx-003.aaplimg.com.https: Flags [.], ack 1, win 2064, options [nop,nop,TS val 531485732 ecr 1060157824], length 0
+12:54:16.933997 IP ip-192-168-1-10.us-west-2.compute.internal.50300 > ussea4-vip-bx-003.aaplimg.com.https: Flags [P.], seq 1:239, ack 1, win 2064, options [nop,nop,TS val 531485733 ecr 1060157824], length 238
+12:54:16.948726 IP ussea4-vip-bx-003.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.50300: Flags [.], ack 239, win 118, options [nop,nop,TS val 1060157841 ecr 531485733], length 0
+12:54:16.949048 IP ussea4-vip-bx-003.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.50300: Flags [.], seq 1:1349, ack 239, win 118, options [nop,nop,TS val 1060157842 ecr 531485733], length 1348
+12:54:16.949105 IP ussea4-vip-bx-003.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.50300: Flags [.], seq 1349:2697, ack 239, win 118, options [nop,nop,TS val 1060157842 ecr 531485733], length 1348
+12:54:16.949136 IP ussea4-vip-bx-003.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.50300: Flags [.], seq 2697:4045, ack 239, win 118, options [nop,nop,TS val 1060157842 ecr 531485733], length 1348
+12:54:16.949164 IP ussea4-vip-bx-003.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.50300: Flags [P.], seq 4045:4097, ack 239, win 118, options [nop,nop,TS val 1060157842 ecr 531485733], length 52
+12:54:16.949819 IP ussea4-vip-bx-003.aaplimg.com.https > ip-192-168-1-10.us-west-2.compute.internal.50300: Flags [P.], seq 4097:5259, ack 239, win 118, options [nop,nop,TS val 1060157842 ecr 531485733], length 1162
+12:54:16.953107 IP ip-192-168-1-10.us-west-2.compute.internal.50300 > ussea4-vip-bx-003.aaplimg.com.https: Flags [.], ack 2697, win 2026, options [nop,nop,TS val 531485750 ecr 1060157842], length 0
+12:54:16.953135 IP ip-192-168-1-10.us-west-2.compute.internal.50300 > ussea4-vip-bx-003.aaplimg.com.https: Flags [.], ack 4097, win 2026, options [nop,nop,TS val 531485750 ecr 1060157842], length 0
+12:54:16.953491 IP ip-192-168-1-10.us-west-2.compute.internal.50300 > ussea4-vip-bx-003.aaplimg.com.https: Flags [.], ack 5259, win 2029, options [nop,nop,TS val 531485750 ecr 1060157842], length 0
+12:54:17.084211 IP ip-192-168-1-10.us-west-2.compute.internal.50302 > a23-9-91-27.deploy.static.akamaitechnologies.com.www: Flags [SEW], seq 2137881757, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 531485879 ecr 0,sackOK,eol], length 0
+12:54:17.091025 IP a23-9-91-27.deploy.static.akamaitechnologies.com.www > ip-192-168-1-10.us-west-2.compute.internal.50302: Flags [S.E], seq 1704286872, ack 2137881758, win 26960, options [mss 1360,sackOK,TS val 3898038721 ecr 531485879,nop,wscale 7], length 0
+12:54:17.092448 IP ip-192-168-1-10.us-west-2.compute.internal.50302 > a23-9-91-27.deploy.static.akamaitechnologies.com.www: Flags [.], ack 1, win 206

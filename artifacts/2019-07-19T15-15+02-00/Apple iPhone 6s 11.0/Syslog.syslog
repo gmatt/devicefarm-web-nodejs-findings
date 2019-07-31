@@ -1,0 +1,1067 @@
+[connected]
+Jul 19 09:23:37 9902007581 wifid[43] <Notice>: WiFi:[585235417.661976]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+Jul 19 09:23:37 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -41 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:38 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:38 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":246851287014, "end_mach":246851301901, "elapsed_s":"0.000620292", "event":"Location::Leech", "now_s":"585235418.498669028"}
+Jul 19 09:23:38 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:38 9902007581 backboardd(AttentionAwareness)[60] <Notice>:                    Scheduler.m:46  :   10285.66939:  Info: timer fired
+Jul 19 09:23:38 9902007581 backboardd(AttentionAwareness)[60] <Notice>:                 RemoteClient.m:148 :   10285.66966:  Info: notify client <private> of <private>
+Jul 19 09:23:38 9902007581 SpringBoard[55] <Notice>: attention event: expire @ 6 -- should be 6
+Jul 19 09:23:38 9902007581 SpringBoard[55] <Notice>: attention event: looking for quickWarn:1.79769e+308 warn:1.79769e+308 total:6 expecting:expiration -> expiration
+Jul 19 09:23:38 9902007581 analyticsd[88] <Notice>: [<private>] no observers; dropped.
+Jul 19 09:23:38 9902007581 analyticsd[88] <Notice>: [<private>] no observers; dropped.
+Jul 19 09:23:38 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:38 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:39 9902007581 ScreenShotr(FrontBoardServices)[543] <Notice>: [FBDisplayManager=0x12de01c10] silently connecting <FBSDisplayConfiguration: 0x12de08c10; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x12dd2c290; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":246874925847, "end_mach":246874937451, "elapsed_s":"0.000483500", "event":"Location::Leech", "now_s":"585235419.490219951"}
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:39 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:39 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:39 9902007581 locationd[63] <Notice>: {"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb"}
+Jul 19 09:23:39 9902007581 coreduetd[100] <Notice>: CDDBatteryMonitor:	received batterycallback, currentPercentage:100.000000!
+Jul 19 09:23:39 9902007581 nsurlsessiond(CFNetwork)[94] <Notice>: TIC Timed Out [1172:0x1011dbb90]: 4:-2104
+Jul 19 09:23:39 9902007581 nsurlsessiond(CFNetwork)[94] <Notice>: TIC TCP Conn Cancel [1172:0x1011dbb90]
+Jul 19 09:23:39 9902007581 nsurlsessiond(CFNetwork)[94] <Notice>: TIC TCP [0x1011dbb90] canceling activity 0x1011bb840
+Jul 19 09:23:39 9902007581 nsurlsessiond(CFNetwork)[94] <Error>: Task <3B9E0A1F-9E31-4643-AE0C-D534371292BD>.<746> HTTP load failed (error code: -1001 [4:-2104])
+Jul 19 09:23:39 9902007581 nsurlsessiond(CFNetwork)[94] <Error>: Task <3B9E0A1F-9E31-4643-AE0C-D534371292BD>.<746> finished with error - code: -1001
+Jul 19 09:23:39 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: CANCELED: com.apple.CFNetwork-cc-94-1172:A1BA71 <private>!
+Jul 19 09:23:39 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: Stop network path monitoring for '<private>'
+Jul 19 09:23:39 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: NO LONGER RUNNING com.apple.CFNetwork-cc-94-1172:A1BA71 ...Tasks running in group [<private>] are 0!
+Jul 19 09:23:39 9902007581 nsurlsessiond[94] <Notice>: Task <3B9E0A1F-9E31-4643-AE0C-D534371292BD>.<746> for client <private> will be retried after error <private> - code: -1001
+Jul 19 09:23:39 9902007581 nsurlsessiond[94] <Notice>: Task <3B9E0A1F-9E31-4643-AE0C-D534371292BD>.<746> logTaskError isDownload = N bytesReceived = 0 bytesSent = 0 isRecoverable = Y
+Jul 19 09:23:39 9902007581 nsurlsessiond[94] <Notice>: Current discretionary status for <private> is discretionary (opt-in: 1)
+Jul 19 09:23:39 9902007581 nsurlsessiond[94] <Notice>: Task <3B9E0A1F-9E31-4643-AE0C-D534371292BD>.<746> potentially discretionary, re-scheduling, was discretionary: 1, is now discretionary: 1
+Jul 19 09:23:40 9902007581 nsurlsessiond[94] <Notice>: Current discretionary status for <private> is discretionary (opt-in: 1)
+Jul 19 09:23:40 9902007581 nsurlsessiond[94] <Notice>: Task <3B9E0A1F-9E31-4643-AE0C-D534371292BD>.<746> potentially discretionary, re-scheduling, was discretionary: 1, is now discretionary: 1
+Jul 19 09:23:40 9902007581 nsurlsessiond[94] <Notice>: Task <3B9E0A1F-9E31-4643-AE0C-D534371292BD>.<746> 329667.246377 seconds past start time, new delay: 0.000000, new window: 214652.753623
+Jul 19 09:23:40 9902007581 nsurlsessiond[94] <Notice>: Task <3B9E0A1F-9E31-4643-AE0C-D534371292BD>.<746> will retry after 1800 seconds
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:40 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:40 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":246899492458, "end_mach":246899524450, "elapsed_s":"0.001333000", "event":"Location::Leech", "now_s":"585235420.504649043"}
+Jul 19 09:23:40 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:40 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:40 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:41 9902007581 ScreenShotr(FrontBoardServices)[544] <Notice>: [FBDisplayManager=0x145e04af0] silently connecting <FBSDisplayConfiguration: 0x145e00a60; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x145d18d30; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":246923065561, "end_mach":246923077761, "elapsed_s":"0.000508333", "event":"Location::Leech", "now_s":"585235421.496665955"}
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:41 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:41 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:41 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":246947567787, "end_mach":246947580679, "elapsed_s":"0.000537167", "event":"Location::Leech", "now_s":"585235422.517577052"}
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:42 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:42 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:42 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:42 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:42 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:42 9902007581 wifid[43] <Notice>: WiFi:[585235422.667878]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+Jul 19 09:23:42 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -41 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+Jul 19 09:23:43 9902007581 ScreenShotr(FrontBoardServices)[545] <Notice>: [FBDisplayManager=0x115d276c0] silently connecting <FBSDisplayConfiguration: 0x115d26330; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x115d21cc0; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:43 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:43 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":246971727859, "end_mach":246971738652, "elapsed_s":"0.000449708", "event":"Location::Leech", "now_s":"585235423.519310951"}
+Jul 19 09:23:43 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:44 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:44 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":246995824371, "end_mach":246995851817, "elapsed_s":"0.001143583", "event":"Location::Leech", "now_s":"585235424.526224971"}
+Jul 19 09:23:44 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:44 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:44 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:44 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:44 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:44 9902007581 ScreenShotr(FrontBoardServices)[546] <Notice>: [FBDisplayManager=0x102c0fb50] silently connecting <FBSDisplayConfiguration: 0x102d12780; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x102d11a80; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247019560938, "end_mach":247019576318, "elapsed_s":"0.000640833", "event":"Location::Leech", "now_s":"585235425.517308950"}
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:45 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:45 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:45 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:46 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:46 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247043842549, "end_mach":247043893649, "elapsed_s":"0.002129167", "event":"Location::Leech", "now_s":"585235426.525006056"}
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:46 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:46 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:46 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:46 9902007581 ScreenShotr(FrontBoardServices)[547] <Notice>: [FBDisplayManager=0x1027052e0] silently connecting <FBSDisplayConfiguration: 0x10261d640; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x10261dd00; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:46 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:46 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:47 9902007581 geod(CFNetwork)[113] <Notice>: TIC TCP Conn Cancel [12:0x1022781b0]
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247067727393, "end_mach":247067738594, "elapsed_s":"0.000466708", "event":"Location::Leech", "now_s":"585235427.524199963"}
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:47 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:47 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: SimpleTimer <PCSimpleTimer: 0x10966a610> has fired
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: Invalidating simple timer <PCSimpleTimer: 0x10966a610>
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: Disabling power monitoring for <PCSimpleTimer: 0x10966a610> - 6 timers
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: PersistentTimer <PCPersistentTimer: 0x10b1f2f10> has fired
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: Invalidating timer <PCPersistentTimer: 0x10b1f2f10>
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: @CellFlow, refresh, delayed
+Jul 19 09:23:47 9902007581 CommCenter[80] <Notice>: #I <private> refreshing cell info
+Jul 19 09:23:47 9902007581 locationd[63] <Notice>: @CellFlow, ctmonitor, 1
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCPersistentTimer: 0x1096a8040> created <PCSimpleTimer: 0x109668a80>
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: Started simple timer <PCSimpleTimer: 0x109668a80> with fire date [2019-07-19 09:28:47 -0400]
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCSimpleTimer: 0x109668a80> created preventSleepTimer <PCDispatchTimer: 0x10b3887b0> and fireTimer <PCDispatchTimer: 0x10b3b1fb0> on queue <OS_dispatch_queue: PCSimpleTimer-timerQ>
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCInterfaceUsabilityMonitor: 0x1096cd390> [WWAN](pdp_ip0): isInterfaceUsable? NO reachable YES linkQuality -2 isNetworkCaptive? NO
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCInterfaceUsabilityMonitor: 0x109641d40> [NonCellular](en2): isInterfaceUsable? NO reachable YES linkQuality -2 isNetworkCaptive? NO
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCInterfaceUsabilityMonitor: 0x10963cb60> [NonCellular](en3): isInterfaceUsable? NO reachable YES linkQuality -2 isNetworkCaptive? NO
+Jul 19 09:23:47 9902007581 locationd(CommonUtilities)[63] <Notice>: Found cached network: 0x109667c50
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCInterfaceUsabilityMonitor: 0x10955a9c0> [NonCellular](en0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCPersistentTimer: 0x1096a8040> calculating _earlyFireDate. powerStateDetectionSupported = NO = (detectionSupported(NO) && (wwanIsUp(NO) || ! internetReachable(YES)))
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: Last system wake date (2019-07-19 06:32:18 -0400) was longer than half of the timer duration, so setting minimum fire date to fire date.
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: Enabling power monitoring for <PCSimpleTimer: 0x109668a80> - 7 timers
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCPersistentTimer: 0x1096a8040> Device is plugged in, overriding earlyFireProportion to be 1.0
+Jul 19 09:23:47 9902007581 locationd(PersistentConnection)[63] <Notice>: <PCPersistentTimer: 0x1096a8040> Calculated minimum fire date [2019-07-19 09:28:47 -0400] (100%) with fire date [2019-07-19 09:28:47 -0400], start date [2019-07-19 09:23:47 -0400], minimum early fire proportion 0.9, power state detection supported: no, in high power state: no
+Jul 19 09:23:47 9902007581 CommCenter(libATCommandStudioDynamic.dylib)[80] <Notice>: QMI: Svc=0x03(NAS) Req MsgId=0x5556 Bin=[<private>]
+Jul 19 09:23:47 9902007581 parsecd(CFNetwork)[523] <Notice>: TIC TCP Conn Event [1:0x101257bf0]: 2
+Jul 19 09:23:47 9902007581 parsecd(CFNetwork)[523] <Notice>: TIC TCP Conn Cancel [1:0x101257bf0]
+Jul 19 09:23:47 9902007581 CommCenter(libATCommandStudioDynamic.dylib)[80] <Notice>: QMI: Svc=0x03(NAS) Resp MsgId=0x5556 Bin=[<private>]
+Jul 19 09:23:47 9902007581 CommCenter(libCommCenterMCommandDrivers.dylib)[80] <Notice>: #N Get Cell Info failed: Error in response with code 53 (QMI_ERR_NETWORK_NOT_READY)
+Jul 19 09:23:47 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -41 (txFrames/txReTx/txFail) 7/0/0 -> (was/is) 0/0
+Jul 19 09:23:47 9902007581 networkserviceproxy(CFNetwork)[159] <Notice>: TIC TCP Conn Event [2:0x1031271e0]: 2
+Jul 19 09:23:47 9902007581 networkserviceproxy(CFNetwork)[159] <Notice>: TIC TCP Conn Cancel [2:0x1031271e0]
+Jul 19 09:23:48 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:48 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247091814258, "end_mach":247091823107, "elapsed_s":"0.000368708", "event":"Location::Leech", "now_s":"585235428.527925014"}
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:48 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:48 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:48 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:48 9902007581 ScreenShotr(FrontBoardServices)[548] <Notice>: [FBDisplayManager=0x100e0c180] silently connecting <FBSDisplayConfiguration: 0x100f13da0; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x100f17400; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:48 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:48 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:48 9902007581 mobile_installation_proxy(MobileInstallation)[207] <Notice>: com.bytearc.SafariLauncher:5:3:1:1:Beginning uninstall for com.bytearc.SafariLauncher with options (null)
+Jul 19 09:23:48 9902007581 mobile_installation_proxy(MobileCoreServices)[207] <Notice>: setting operationType to LSOperationTypeUninstallApplication from options (null)
+Jul 19 09:23:48 9902007581 mobile_installation_proxy(MobileCoreServices)[207] <Notice>: created clientUninstaller for type UninstallPlaceholder
+Jul 19 09:23:48 9902007581 lsd(MobileInstallation)[84] <Notice>: com.bytearc.SafariLauncher:5:3:1:1:Uninstall com.bytearc.SafariLauncher with options (null)
+Jul 19 09:23:48 9902007581 lsd(MobileCoreServices)[84] <Notice>: Sending applicationsWillUninstall: for <private>
+Jul 19 09:23:49 9902007581 SpringBoard(MobileCoreServices)[55] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 SpringBoard(FrontBoard)[55] <Notice>: -[FBApplicationLibrary applicationsWillUninstall:] com.bytearc.SafariLauncher
+Jul 19 09:23:49 9902007581 coreduetd(MobileCoreServices)[100] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 profiled(MobileCoreServices)[105] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 nsurlsessiond(MobileCoreServices)[94] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 atc(MobileCoreServices)[37] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 dasd(MobileCoreServices)[95] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 UserEventAgent(MobileCoreServices)[23] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 installd(MobileSystemServices)[46] <Notice>: 0x16f08f000 -[MIClientConnection uninstallIdentifiers:withOptions:completion:]: Uninstall requested by lsd (pid 84) for identifier com.bytearc.SafariLauncher with options: (null)
+Jul 19 09:23:49 9902007581 installd(MobileInstallation)[46] <Notice>: com.bytearc.SafariLauncher:7:11:1:1:Start : Uninstall (Application)
+Jul 19 09:23:49 9902007581 routined(MobileCoreServices)[31] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: Request to create termination assertion <BKSTerminationAssertionCreateEvent: 0x10322cb80; Identifier: 46-F2186408-A80F-446A-8821-39DEBEE22D24; Name: FBSApplicationTerminationAssertion; Target BundleID: com.bytearc.SafariLauncher; Efficacy: Unconditional> from client <BKClientHandle: 0x103120640; installd:46; connections: 1>
+Jul 19 09:23:49 9902007581 passd(MobileCoreServices)[134] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: Acquisition success for assertion <private>: <private>
+Jul 19 09:23:49 9902007581 installd(AssertionServices)[46] <Notice>: Acquired termination assertion for event <BKSTerminationAssertionCreateEvent: 0x101277120; Identifier: 46-F2186408-A80F-446A-8821-39DEBEE22D24; Name: FBSApplicationTerminationAssertion; Target BundleID: com.bytearc.SafariLauncher; Efficacy: Unconditional>
+Jul 19 09:23:49 9902007581 bluetoothd(MobileCoreServices)[78] <Notice>: LaunchServices observer: Will uninstall <private>
+Jul 19 09:23:49 9902007581 pkd(MobileCoreServices)[85] <Notice>: No plugins found to match query <private>
+Jul 19 09:23:49 9902007581 pkd(MobileCoreServices)[85] <Notice>: No plugins found to match query <private>
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: #Error SAM: error matching extensions with attributes, (null)
+Jul 19 09:23:49 9902007581 installd(MobileSystemServices)[46] <Notice>: 0x16f08f000 -[MIUninstaller _uninstallBundleWithIdentifier:error:]: Uninstalling identifier com.bytearc.SafariLauncher
+Jul 19 09:23:49 9902007581 installd(MobileSystemServices)[46] <Notice>: 0x16f08f000 -[MIKeychainAccessGroupTracker _onQueue_removeReferencesForBundle:error:]: Removing reference in com.bytearc.SafariLauncher for 5VLXJ89ZV9.com.bytearc.SafariLauncher
+Jul 19 09:23:49 9902007581 installd(MobileSystemServices)[46] <Notice>: 0x16f08f000 -[MIKeychainAccessGroupTracker _removeGroupsWithError:error:]: Removing keychain access groups: (
+    "5VLXJ89ZV9.com.bytearc.SafariLauncher"
+)
+Jul 19 09:23:49 9902007581 installd(MobileSystemServices)[46] <Notice>: 0x16f08f000 -[MIUninstallNotifier performRemovalWithCompletionBlock:]: Destroying container with identifier com.bytearc.SafariLauncher at /private/var/containers/Bundle/Application/DABDCAEC-AF6F-4C94-808E-0DB6C6BAFD69
+Jul 19 09:23:49 9902007581 installd(MobileSystemServices)[46] <Notice>: 0x16f08f000 -[MIUninstallNotifier performRemovalWithCompletionBlock:]: Destroying container with identifier com.bytearc.SafariLauncher at /private/var/mobile/Containers/Data/Application/31193E5A-272C-43C2-82D7-CBC33DE06750
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.BarcodeSupport.BarcodeNotificationExtension for categories [ barcodeNotificationCategory ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = barcodeNotificationCategory;
+    UNNotificationExtensionCustomSectionIdentifier = "com.apple.BarcodeSupport.Notification";
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loading extension com.apple.BarcodeSupport.BarcodeNotificationExtension with custom section identifier com.apple.BarcodeSupport.Notification
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.news.articlenotificationextension for categories [ extension-article ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "2.0";
+    UNNotificationExtensionCategory =     (
+        "extension-article"
+    );
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = "1.32";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobilephone.extension.VoicemailMessageNotificationExtension for categories [ VoicemailMessageNotificationExtensionCategory ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory =     (
+        VoicemailMessageNotificationExtensionCategory
+    );
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobiletimer.MobileTimerNotificationExtension for categories [ AlarmSnoozeCountdown ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = AlarmSnoozeCountdown;
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = "0.7";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobilecal.notifications for categories [ calendarUpcomingEvent, calendarEventInvitation ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory =     (
+        calendarUpcomingEvent,
+        calendarEventInvitation
+    );
+    UNNotificationExtensionDefaultContentHidden = NO;
+    UNNotificationExtensionInitialContentSizeRatio = "0.5";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.MobileSMS.MessagesNotificationExtension for categories [ MessageExtension ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = MessageExtension;
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = "0.7";
+    UNNotificationExtensionOverridesDefaultTitle = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobileslideshow.photosmemoriesnotificationupdates for categories [ memoriesUpdates ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory =     (
+        memoriesUpdates
+    );
+    UNNotificationExtensionInitialContentSizeRatio = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobileslideshow.photosnotifications-updates for categories [ updates ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = updates;
+    UNNotificationExtensionInitialContentSizeRatio = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.Home.HomeNotification for categories [ HomeAppBulletinCategory ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = HomeAppBulletinCategory;
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = "0.5600000000000001";
+}
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: Client relinquished <BKTerminationAssertion: 0x10312faa0; "FBSApplicationTerminationAssertion" (Unconditional); 46:(null) id:\M-b\M^@\M-&39DEBEE22D24>
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: -[BKAssertion dealloc] - <0x10312faa0>
+Jul 19 09:23:49 9902007581 installd(MobileInstallation)[46] <Notice>: com.bytearc.SafariLauncher:7:11:2:1:Success (End) : Uninstall (Application)
+Jul 19 09:23:49 9902007581 pkd(MobileCoreServices)[85] <Notice>: No plugins found to match query <private>
+Jul 19 09:23:49 9902007581 lsd(MobileInstallation)[84] <Notice>: com.bytearc.SafariLauncher:5:6:1:1:Unregister bundles - Start
+Jul 19 09:23:49 9902007581 lsd(MobileCoreServices)[84] <Notice>: LaunchServices: unregistering app <private>
+Jul 19 09:23:49 9902007581 lsd(MobileInstallation)[84] <Notice>: com.bytearc.SafariLauncher:5:6:1:1:Beginning _LSUnregisterAppWithBundleID
+Jul 19 09:23:49 9902007581 lsd(MobileCoreServices)[84] <Notice>: No placeholder to remove for <private>
+Jul 19 09:23:49 9902007581 lsd(MobileCoreServices)[84] <Notice>: Found app to remove for <private>
+Jul 19 09:23:49 9902007581 lsd(MobileCoreServices)[84] <Notice>: Asking to clear identifiers for vendor <private>/bundle <private>
+Jul 19 09:23:49 9902007581 lsd(MobileCoreServices)[84] <Notice>: _LSUnregisterBundle(<private>) returned 1 for app
+Jul 19 09:23:49 9902007581 lsd(MobileCoreServices)[84] <Notice>: Clearing icon cache entries for <private>
+Jul 19 09:23:49 9902007581 lsdiconservice[132] <Notice>: clearCachedItemsForBundeID: <private>
+Jul 19 09:23:49 9902007581 lsdiconservice[132] <Notice>: Clearing icons for bundle <private> (<private>)
+Jul 19 09:23:49 9902007581 lsdiconservice[132] <Notice>: Clearing alternateIcon for <private>
+Jul 19 09:23:49 9902007581 lsd(MobileInstallation)[84] <Notice>: com.bytearc.SafariLauncher:5:6:2:1:Finished _LSUnregisterAppWithBundleID
+Jul 19 09:23:49 9902007581 lsd(MobileInstallation)[84] <Notice>: com.bytearc.SafariLauncher:5:6:2:1:Unregister bundles - Start
+Jul 19 09:23:49 9902007581 lsd(MobileCoreServices)[84] <Notice>: Sending applicationsDidUninstall: for <private>
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.Sharing.continuityRemote for categories [ continuityRemoteCategory ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "910.6";
+    UNNotificationExtensionCategory = continuityRemoteCategory;
+    UNNotificationExtensionCustomSectionIdentifier = "com.apple.Sharing.Remote";
+    UNNotificationExtensionDefaultContentHidden = 0;
+    UNNotificationExtensionInitialContentSizeRatio = "0.375";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loading extension com.apple.Sharing.continuityRemote with custom section identifier com.apple.Sharing.Remote
+Jul 19 09:23:49 9902007581 SpringBoard(MobileCoreServices)[55] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 SpringBoard(FrontBoard)[55] <Notice>: -[FBApplicationLibrary applicationsDidUninstall:] com.bytearc.SafariLauncher
+Jul 19 09:23:49 9902007581 passd(MobileCoreServices)[134] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 UserEventAgent(MobileCoreServices)[23] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 SpringBoard(MobileInstallation)[55] <Notice>: com.bytearc.SafariLauncher:11:12:3:1:Notifying observers of application removed.
+Jul 19 09:23:49 9902007581 SpringBoard(MobileInstallation)[55] <Notice>: com.bytearc.SafariLauncher:10:12:3:1:Application removed for reason: Removed from the system.
+Jul 19 09:23:49 9902007581 mobile_installation_proxy(MobileInstallation)[207] <Notice>: com.bytearc.SafariLauncher:5:3:2:1:_LSInstallationManager uninstall:withCompletionBlock finished with error (null)
+Jul 19 09:23:49 9902007581 mobile_installation_proxy(MobileCoreServices)[207] <Notice>: Connection invalidated to installationCallbackInterface
+Jul 19 09:23:49 9902007581 routined(MobileCoreServices)[31] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 routined(libcoreroutine.dylib)[31] <Notice>: removing application proxy, <private>
+Jul 19 09:23:49 9902007581 profiled(MobileCoreServices)[105] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 nsurlsessiond(MobileCoreServices)[94] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 atc(MobileCoreServices)[37] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 bluetoothd(MobileCoreServices)[78] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 dasd(MobileCoreServices)[95] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 SpringBoard[55] <Notice>: Installed apps did change.
+Added: {(
+)}
+Removed: {(
+    "com.bytearc.SafariLauncher"
+)}
+Modified: {(
+)}
+Jul 19 09:23:49 9902007581 SpringBoard[55] <Notice>: Reloading and rendering all application icons.
+Jul 19 09:23:49 9902007581 coreduetd(MobileCoreServices)[100] <Notice>: LaunchServices observer: Uninstalled <private>
+Jul 19 09:23:49 9902007581 SpringBoard[55] <Error>: throwing out icon because it isn't visible in the model : node=<private>
+Jul 19 09:23:49 9902007581 SpringBoard[55] <Error>: throwing out icon because it isn't visible in the model : node=<private>
+Jul 19 09:23:49 9902007581 SpringBoard[55] <Error>: could not find icon for representation -> <private>
+Jul 19 09:23:49 9902007581 SpringBoard[55] <Error>: could not find icon for representation -> <private>
+Jul 19 09:23:49 9902007581 SpringBoard[55] <Error>: could not find icon for representation -> <private>
+Jul 19 09:23:49 9902007581 lsd(MobileCoreServices)[84] <Notice>: Sent distributed notification com.apple.LaunchServices.applicationUnregistered with payload <private>
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I Apps uninstalled from the device: <private>
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: Removing all alarms for client: <private>.
+Jul 19 09:23:49 9902007581 itunescloudd[201] <Notice>: Received distributed notification: com.apple.LaunchServices.applicationUnregistered
+Jul 19 09:23:49 9902007581 videosubscriptionsd[200] <Notice>: Received distnoted matching event.
+Jul 19 09:23:49 9902007581 duetexpertd(ProactiveMagicalMoments)[133] <Notice>: discovered app prediction extension
+Jul 19 09:23:49 9902007581 duetexpertd(ProactiveMagicalMoments)[133] <Notice>: app prediction extension is enabled
+Jul 19 09:23:49 9902007581 duetexpertd(ProactiveMagicalMoments)[133] <Notice>: PMMAppsSettingsMonitor enabled, 1
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Beginning transaction for <private>. Transaction count is now 1
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Launched by application uninstalled notification
+Jul 19 09:23:49 9902007581 com.apple.CallKit.CallDirectoryMaintenance(CallKit)[177] <Notice>: 
+Jul 19 09:23:49 9902007581 com.apple.CallKit.CallDirectoryMaintenance[177] <Notice>: requested to synchronize extensions
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Handling <private>
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] Attempting to acquire assertion for LocalStorageFil:209: <BKProcessAssertion: 0x10312f6f0; "com.apple.extension.session" (extension:inf); id:\M-b\M^@\M-&0136C65FD119>
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] Add assertion: <BKProcessAssertion: 0x10312f6f0; id: 202-F59F2455-1F99-4ACB-9A63-0136C65FD119; name: com.apple.extension.session; state: active; reason: extension; duration: infs> {
+    owner = <BSProcessHandle: 0x103236420; fileproviderd:202; valid: YES>;
+    flags = preventSuspend, preventThrottleDownCPU, wantsForegroundResourcePriority, preventSuspendOnSleep;
+}
+Jul 19 09:23:49 9902007581 appstored[171] <Notice>: [CleanupManager]: Cleaning up updates
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] Activate assertion: <BKProcessAssertion: 0x10312f6f0; "com.apple.extension.session" (extension:inf); id:\M-b\M^@\M-&0136C65FD119>
+Jul 19 09:23:49 9902007581 analyticsd[88] <Notice>: [<private>] no observers; dropped.
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] New process assertion state; preventSuspend, preventThrottleDownCPU, wantsForegroundResourcePriority, preventSuspendOnSleep (assertion 0x10312f6f0 added: preventSuspend, preventThrottleDownCPU, wantsForegroundResourcePriority, preventSuspendOnSleep; removed: (none))
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] Setting jetsam priority to 9 [0x2000000]
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] dump all assertions HWM:1 (CPUMON check): {
+    <BKProcessAssertion: 0x10312f6f0; "com.apple.extension.session" (extension:inf); id:\M-b\M^@\M-&0136C65FD119> [active]
+}
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] Setting jetsam priority to 9 [0x2010000]
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] dump all assertions HWM:1 (CPUMON check): {
+    <BKProcessAssertion: 0x10312f6f0; "com.apple.extension.session" (extension:inf); id:\M-b\M^@\M-&0136C65FD119> [active]
+}
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] setpriority success for resource GPU to PRIO_DARWIN_GPU_ALLOW
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] setpriority success for resource CPU to default (0)
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] resume success (extension)
+Jul 19 09:23:49 9902007581 assertiond[66] <Notice>: [LocalStorageFil:209] dump all assertions HWM:1 (CPUMON check): {
+    <BKProcessAssertion: 0x10312f6f0; "com.apple.extension.session" (extension:inf); id:\M-b\M^@\M-&0136C65FD119> [active]
+}
+Jul 19 09:23:49 9902007581 tccd[110] <Notice>: Handling Application Uninstalled event; pruning database.
+Jul 19 09:23:49 9902007581 SpringBoard(WiFiPicker)[55] <Notice>: WIFI PICKER [com.apple.FileProvider.LocalStorage]: isProcessLaunch: 0,    isForegroundActivation: 1,     isForegroundDeactivation: 0
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Unregistering application <private> in environment (null)
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: Looking up connection on peer: 5de55e50   found <private>
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: Looking up connection on peer: 5de55e50   found <private>
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: <private> asked by <private> to invalidate token for topic <private> identifier
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: <private> Deleting token for appSpecificIdentifier <private>
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: setTokenForDomain push.apple.com token (null) appSpecificIdentifier <private>
+Jul 19 09:23:49 9902007581 appstored[171] <Notice>: [CleanupManager]: Update clean up complete with 0 changes
+Jul 19 09:23:49 9902007581 apsd[111] <Fault>: SecItemDelete() failed: -25300 - setTokenForDomain
+Jul 19 09:23:49 9902007581 mediaserverd(CoreMedia)[27] <Notice>: -CMSessionMgr- CMSessionMgrHandleApplicationStateChange: CMSession: Client com.apple.FileProvider.LocalStorage with pid '209' is now Foreground Running. Background entitlement: NO
+Jul 19 09:23:49 9902007581 searchd(SpotlightDaemon)[175] <Notice>: Received "com.apple.distnoted.matching" notification for keyName:<private>
+Jul 19 09:23:49 9902007581 searchd[175] <Notice>: Received a notification for name:"<private>", userInfo:<private>, bundleIDs:<private>
+Jul 19 09:23:49 9902007581 healthd(HealthDaemon)[34] <Notice>: Received distnoted notification "<private>"
+Jul 19 09:23:49 9902007581 healthd(HealthDaemon)[34] <Notice>: Application(s) uninstalled <private>, deleting sources for applications without data
+Jul 19 09:23:49 9902007581 healthd(ActivitySharingPlugin)[34] <Notice>: ActivitySharingManager applications uninstalled: <private>
+Jul 19 09:23:49 9902007581 healthd(HealthDaemon)[34] <Notice>: Reset authorization records for uninstalled application <private>
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: [WARN] No APS connection found for environment (null)
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Disabling topic <private> and invalidating its token for all connections
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> invalidateTokenForTopic: <private> identifier
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> invalidateTokenForTopic: <private> identifier
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> setEnabledTopics <private> ignoredTopics <private> opportunisticTopics <private> sendToDaemon: YES
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> got all nil topics, considering this as a change to flush any cached topics in apsd for named ports.
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> setEnabledTopics <private> ignoredTopics <private> opportunisticTopics <private> sendToDaemon: YES
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> setEnabledTopics <private> ignoredTopics <private> opportunisticTopics <private> sendToDaemon: NO
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> got all nil topics, considering this as a change to flush any cached topics in apsd for named ports.
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> got all nil topics, considering this as a change to flush any cached topics in apsd for named ports.
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> setEnabledTopics <private> ignoredTopics <private> opportunisticTopics <private> sendToDaemon: NO
+Jul 19 09:23:49 9902007581 callservicesd(ApplePushService)[138] <Notice>: <private> got all nil topics, considering this as a change to flush any cached topics in apsd for named ports.
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: Looking up connection on peer: 5dd2f200   found <private>
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: Looking up connection on peer: 5dd2f200   found <private>
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: <private> asked by <private> to invalidate token for topic <private> identifier
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: <private> Deleting token for appSpecificIdentifier <private>
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: setTokenForDomain sandbox.push.apple.com token (null) appSpecificIdentifier <private>
+Jul 19 09:23:49 9902007581 apsd[111] <Fault>: SecItemDelete() failed: -25300 - setTokenForDomain
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I Removing rules for apps: <private>
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I Performing save operation on ne configuration: <private>
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I BundleID: <private> is a foreground app
+Jul 19 09:23:49 9902007581 pkd(MobileCoreServices)[85] <Notice>: No plugins found to match query <private>
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.BarcodeSupport.BarcodeNotificationExtension for categories [ barcodeNotificationCategory ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = barcodeNotificationCategory;
+    UNNotificationExtensionCustomSectionIdentifier = "com.apple.BarcodeSupport.Notification";
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loading extension com.apple.BarcodeSupport.BarcodeNotificationExtension with custom section identifier com.apple.BarcodeSupport.Notification
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.news.articlenotificationextension for categories [ extension-article ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "2.0";
+    UNNotificationExtensionCategory =     (
+        "extension-article"
+    );
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = "1.32";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobilephone.extension.VoicemailMessageNotificationExtension for categories [ VoicemailMessageNotificationExtensionCategory ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory =     (
+        VoicemailMessageNotificationExtensionCategory
+    );
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobiletimer.MobileTimerNotificationExtension for categories [ AlarmSnoozeCountdown ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = AlarmSnoozeCountdown;
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = "0.7";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobilecal.notifications for categories [ calendarUpcomingEvent, calendarEventInvitation ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory =     (
+        calendarUpcomingEvent,
+        calendarEventInvitation
+    );
+    UNNotificationExtensionDefaultContentHidden = NO;
+    UNNotificationExtensionInitialContentSizeRatio = "0.5";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.MobileSMS.MessagesNotificationExtension for categories [ MessageExtension ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = MessageExtension;
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = "0.7";
+    UNNotificationExtensionOverridesDefaultTitle = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobileslideshow.photosmemoriesnotificationupdates for categories [ memoriesUpdates ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory =     (
+        memoriesUpdates
+    );
+    UNNotificationExtensionInitialContentSizeRatio = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.mobileslideshow.photosnotifications-updates for categories [ updates ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = updates;
+    UNNotificationExtensionInitialContentSizeRatio = 1;
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.Home.HomeNotification for categories [ HomeAppBulletinCategory ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "1.0";
+    UNNotificationExtensionCategory = HomeAppBulletinCategory;
+    UNNotificationExtensionDefaultContentHidden = 1;
+    UNNotificationExtensionInitialContentSizeRatio = "0.5600000000000001";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loaded extension com.apple.Sharing.continuityRemote for categories [ continuityRemoteCategory ] with attributes: {
+    NSExtensionPointName = "com.apple.usernotifications.content-extension";
+    NSExtensionPointVersion = "1.0";
+    NSExtensionVersion = "910.6";
+    UNNotificationExtensionCategory = continuityRemoteCategory;
+    UNNotificationExtensionCustomSectionIdentifier = "com.apple.Sharing.Remote";
+    UNNotificationExtensionDefaultContentHidden = 0;
+    UNNotificationExtensionInitialContentSizeRatio = "0.375";
+}
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsUIKit)[55] <Notice>: Loading extension com.apple.Sharing.continuityRemote with custom section identifier com.apple.Sharing.Remote
+Jul 19 09:23:49 9902007581 pkd(MobileCoreServices)[85] <Notice>: No plugins found to match query <private>
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: #Error SAM: error matching extensions with attributes, (null)
+Jul 19 09:23:49 9902007581 duetexpertd(ProactiveMagicalMoments)[133] <Notice>: discovered app prediction extension
+Jul 19 09:23:49 9902007581 duetexpertd(ProactiveMagicalMoments)[133] <Notice>: app prediction extension is enabled
+Jul 19 09:23:49 9902007581 duetexpertd(ProactiveMagicalMoments)[133] <Notice>: PMMAppsSettingsMonitor enabled, 1
+Jul 19 09:23:49 9902007581 pkd(MobileCoreServices)[85] <Notice>: No plugins found to match query <private>
+Jul 19 09:23:49 9902007581 pkd(MobileCoreServices)[85] <Notice>: No plugins found to match query <private>
+Jul 19 09:23:49 9902007581 pkd[85] <Notice>: allowing host 202 <private> to use plug-in <private>(<private>) uuid=795AA78C-8A90-442A-B366-B6BBD60C18E0 at <private>
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsServer)[55] <Notice>: [com.bytearc.SafariLauncher] Remove all pending notification dictionaries
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsServer)[55] <Notice>: [com.bytearc.SafariLauncher] Application uninstalled using default data provider
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsServer)[55] <Notice>: [com.bytearc.SafariLauncher] Remove data provider
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsServer)[55] <Notice>: Removing all attachments for bundle '<private>'
+Jul 19 09:23:49 9902007581 apsd[111] <Notice>: Looking up connection on peer: 5de256b0   found <private>
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsServer)[55] <Notice>: [com.bytearc.SafariLauncher] Invalidate persistent timer
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsServer)[55] <Notice>: [com.bytearc.SafariLauncher] Invalidate region monitors
+Jul 19 09:23:49 9902007581 SpringBoard(BulletinBoard)[55] <Notice>: BBRemoteDataProviderConnection Asked to remove a data provider ((null)) without a sectionID. Ignoring.
+Jul 19 09:23:49 9902007581 SpringBoard(UserNotificationsServer)[55] <Notice>: Setting topics for environment production:
+enabled: (
+)
+ignored: (
+)
+opportunistic:(
+    "com.apple.mobilenotes",
+    "com.apple.icloud-container.com.apple.mobilenotes"
+)
+Jul 19 09:23:49 9902007581 SpringBoard(ApplePushService)[55] <Notice>: <private> setEnabledTopics <private> ignoredTopics <private> opportunisticTopics <private> sendToDaemon: YES
+Jul 19 09:23:49 9902007581 SpringBoard(ApplePushService)[55] <Notice>: <private> setEnabledTopics <private> ignoredTopics <private> opportunisticTopics <private> sendToDaemon: NO
+Jul 19 09:23:49 9902007581 SpringBoard(CoreLocation)[55] <Notice>: {"msg":"CLLocationManager", "event":"activity", "_cmd":"monitoredRegions", "self":"0x1c020cdc0"}
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: {"msg":"client getting effective client name", "clientName":"com.apple.springboard", "bundleId":"", "bundlePath":"\134/System\134/Library\134/PrivateFrameworks\134/BulletinBoard.framework"}
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: SBSRegisterDisplayIdentifiersChanged
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Build apps: forced
+Jul 19 09:23:49 9902007581 testmanagerd[493] <Notice>: <private>
+Jul 19 09:23:49 9902007581 SpringBoard(MobileCoreServices)[55] <Error>: Error getting name for <private>: Error Domain=NSOSStatusErrorDomain Code=-50 "(null)"
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: SBSRegisterDisplayIdentifiersChanged
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Build apps: forced
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247116049253, "end_mach":247116060187, "elapsed_s":"0.000455583", "event":"Location::Leech", "now_s":"585235429.537588000"}
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:49 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Skip restricted app <private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Skip restricted app <private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Notice>: Finished getting 34 applications, took 0.048942 seconds
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Skip restricted app <private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Skip restricted app <private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Processing app:<private>, bundleType:<private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Finished getting 34 applications, took 0.083612 seconds
+Jul 19 09:23:49 9902007581 analyticsd[88] <Notice>: [<private>] no observers; dropped.
+Jul 19 09:23:49 9902007581 networkserviceproxy[159] <Notice>: UUID cache changed
+Jul 19 09:23:49 9902007581 networkserviceproxy[159] <Notice>: <private>: NSPFlowDivert: app rule for <private> is disabled by ratio
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I Reloaded network extension configuration: <private>
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I Loaded configuration due to save operation result: true
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I Successfully deleted rules for app: <private>
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I Handling ne configuration change
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Beginning transaction for <private>. Transaction count is now 2
+Jul 19 09:23:49 9902007581 callservicesd(FTServices)[138] <Notice>: Received kCTPerAppNetworkDataAccessPolicyChangedNotification so nuking cached values
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I BundleID: <private> is a foreground app
+Jul 19 09:23:49 9902007581 searchd[175] <Notice>: Received apps: <private> 2 34 <private> <private>
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Set apps
+Jul 19 09:23:49 9902007581 searchd(Search)[175] <Notice>: Setting apps
+Jul 19 09:23:49 9902007581 SpringBoard(Search)[55] <Error>: Reply Error on 0x1c4190330:Connection interrupted
+Jul 19 09:23:49 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Entering -[VSSubscriptionRegistrationCenter fetchActiveSubscriptionsWithOptions:completionHandler:]
+Jul 19 09:23:49 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: No allowed hash modifiers.
+Jul 19 09:23:49 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Entering -[VSSubscriptionRegistrationCenter fetchActiveSubscriptionsWithOptions:completionHandler:]
+Jul 19 09:23:49 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: No allowed hash modifiers.
+Jul 19 09:23:49 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Will fetch fresh subscriptions.
+Jul 19 09:23:49 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:49 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:49 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Will fetch fresh subscriptions.
+Jul 19 09:23:49 9902007581 CommCenter[80] <Notice>: #I Setting total disabled bundles count to: 0
+Jul 19 09:23:49 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: 209 com.apple.FileProvider.LocalStorage: ForegroundRunning (most elevated: ForegroundRunning)
+Jul 19 09:23:49 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: Entry, display name com.apple.FileProvider.LocalStorage uuid E1CA9A29-CF74-343C-8891-2AD783A0F2FB pid 209 isFront 1
+Jul 19 09:23:49 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: Continue with bundle name com.apple.FileProvider.LocalStorage, is front 1
+Jul 19 09:23:49 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: com.apple.FileProvider.LocalStorage: Foreground: true
+Jul 19 09:23:49 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: Failed to find process for com.apple.FileProvider.LocalStorage
+Jul 19 09:23:49 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: NBSM Current state: normal, changed: systemForeground to 1 for net type 0
+Jul 19 09:23:49 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: NBSM Eligible to go to broken
+Jul 19 09:23:49 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: NBSM Current state: normal, changed: systemForeground to 1 for net type 0, eligible for broken but constraints unsatisfied (1,0)
+Jul 19 09:23:49 9902007581 UserEventAgent(com.apple.cts)[23] <Notice>: Creating XPC Activity: com.apple.siri.xpc_activity.sync.now
+Jul 19 09:23:49 9902007581 UserEventAgent(DuetActivityScheduler)[23] <Notice>: SUBMITTING: <private>
+Jul 19 09:23:49 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: Submitted Activity: com.apple.siri.xpc_activity.sync.now:F27D7D <private>
+Jul 19 09:23:49 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: Activity <private>: Optimal Score 0.7368 at <private> (Valid Until: <private>)
+Jul 19 09:23:49 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: com.apple.siri.xpc_activity.sync.now:F27D7D:[
+	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.60}}
+ ] sumScores:37.420000, denominator:41.420000, FinalDecision: Can Proceed FinalScore: 0.903428}
+Jul 19 09:23:49 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: 'com.apple.siri.xpc_activity.sync.now:F27D7D' CurrentScore: 0.903428, ThresholdScore: 0.654810 DecisionToRun:1
+Jul 19 09:23:49 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: Running activities : <private>
+Jul 19 09:23:49 9902007581 UserEventAgent(com.apple.cts)[23] <Notice>: Registered XPC Activity: com.apple.siri.xpc_activity.sync.now
+Jul 19 09:23:49 9902007581 UserEventAgent(DuetActivityScheduler)[23] <Notice>: STARTING: <private>
+Jul 19 09:23:49 9902007581 videosubscriptionsd(VideoSubscriberAccount)[200] <Notice>: Entering -[VSSubscriptionRegistry fetchActiveSubscriptionsWithOptions:completionHandler:]
+Jul 19 09:23:49 9902007581 com.apple.CallKit.CallDirectoryMaintenance(CallKit)[177] <Notice>: 
+Jul 19 09:23:49 9902007581 com.apple.CallKit.CallDirectoryMaintenance[177] <Notice>: requested to synchronize extensions
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Successfully synchronized call directory extensions
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Ending transaction for <private>. Transaction count is now 1
+Jul 19 09:23:49 9902007581 pkd(MobileCoreServices)[85] <Notice>: No plugins found to match query <private>
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Successfully synchronized call directory extensions
+Jul 19 09:23:49 9902007581 callservicesd[138] <Notice>: Ending transaction for <private>. Transaction count is now 0
+Jul 19 09:23:49 9902007581 videosubscriptionsd(VideoSubscriberAccount)[200] <Notice>: Successfully obtained context.
+Jul 19 09:23:49 9902007581 duetexpertd(CoreLocation)[133] <Notice>: {"msg":"CLClientIsLocationServicesEnabled", "event":"activity"}
+Jul 19 09:23:49 9902007581 accountsd(AccountsDaemon)[103] <Notice>: "No plugin provides credentials for account <private>. Falling back to legacy behavior."
+Jul 19 09:23:49 9902007581 accountsd(AccountsDaemon)[103] <Notice>: Nil qualifiedUsername for account <private>. Can't look up credential
+Jul 19 09:23:49 9902007581 UserEventAgent(com.apple.cts)[23] <Notice>: Initiating XPC Activity: com.apple.siri.xpc_activity.sync.now
+Jul 19 09:23:49 9902007581 dataaccessd(Accounts)[250] <Error>: "Error returned from daemon: <private>"
+Jul 19 09:23:49 9902007581 UserEventAgent(com.apple.cts)[23] <Notice>: Unregistered XPC Activity: com.apple.siri.xpc_activity.sync.now
+Jul 19 09:23:49 9902007581 UserEventAgent(com.apple.cts)[23] <Notice>: Completed XPC Activity: com.apple.siri.xpc_activity.sync.now
+Jul 19 09:23:49 9902007581 dasd(DuetActivitySchedulerDaemon)[95] <Notice>: COMPLETED com.apple.siri.xpc_activity.sync.now:F27D7D <private>!
+Jul 19 09:23:49 9902007581 dataaccessd(DataAccess)[250] <Error>: spinnerIdentifiers to be implemented by subclass
+Jul 19 09:23:49 9902007581 tccd[110] <Notice>: PID[165] is checking access for target PID[250]
+Jul 19 09:23:49 9902007581 tccd[110] <Error>: Refusing client without bundle identifier (/System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd)
+Jul 19 09:23:49 9902007581 tccd[110] <Error>: Refusing TCCAccessRequest for service kTCCServiceCalendar from invalid client with pid 250
+Jul 19 09:23:49 9902007581 tccd[110] <Notice>: PID[165] is checking access for target PID[250]
+Jul 19 09:23:49 9902007581 tccd[110] <Error>: Refusing client without bundle identifier (/System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd)
+Jul 19 09:23:49 9902007581 tccd[110] <Error>: Refusing TCCAccessRequest for service kTCCServiceReminders from invalid client with pid 250
+Jul 19 09:23:49 9902007581 calaccessd(CalendarDatabase)[165] <Notice>: 25534103: Updating last saved to 585201600
+Jul 19 09:23:49 9902007581 duetexpertd(CoreLocation)[133] <Notice>: {"msg":"CLLocationManager", "event":"activity", "_cmd":"location", "self":"0x102133bb0"}
+Jul 19 09:23:49 9902007581 locationd[63] <Notice>: {"msg":"client getting effective client name", "clientName":"com.apple.locationd", "bundleId":"", "bundlePath":"\134/System\134/Library\134/PrivateFrameworks\134/CoreParsec.framework"}
+Jul 19 09:23:49 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC Enabling TLS [4:0x104b10160]
+Jul 19 09:23:49 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TCP Conn Start [4:0x104b10160]
+Jul 19 09:23:49 9902007581 dataaccessd(CFNetwork)[250] <Notice>: Task <78D2B128-57BD-4627-B4DA-1950D7D2BFBE>.<1> setting up Connection 4
+Jul 19 09:23:49 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TLS Event [4:0x104b10160]: 1, Pending(0)
+Jul 19 09:23:50 9902007581 ScreenShotr(FrontBoardServices)[549] <Notice>: [FBDisplayManager=0x10030ab30] silently connecting <FBSDisplayConfiguration: 0x10030e290; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x10030e6f0; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TLS Event [4:0x104b10160]: 2, Pending(0)
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TLS Event [4:0x104b10160]: 11, Pending(0)
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TLS Event [4:0x104b10160]: 12, Pending(0)
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TLS Event [4:0x104b10160]: 14, Pending(0)
+Jul 19 09:23:50 9902007581 trustd[114] <Notice>: ocsp responder: (null) did not include status of requested cert
+Jul 19 09:23:50 9902007581 trustd[114] <Notice>: ocsp responder: (null) did not include status of requested cert
+Jul 19 09:23:50 9902007581 trustd[114] <Notice>: ocsp responder: (null) did not include status of requested cert
+Jul 19 09:23:50 9902007581 lsd(MobileCoreServices)[84] <Notice>: Writing store to <private>
+Jul 19 09:23:50 9902007581 lsd(MobileCoreServices)[84] <Notice>: _LSSessionSave: result = 0 saving database for UID 501
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TLS Trust Result [4:0x104b10160]: 0
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TLS Event [4:0x104b10160]: 20, Pending(0)
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TCP Conn Connected [4:0x104b10160]: Err(16)
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TCP Conn Event [4:0x104b10160]: 1
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TCP Conn Event [4:0x104b10160]: 8
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: TIC TLS Handshake Complete [4:0x104b10160]
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: Task <78D2B128-57BD-4627-B4DA-1950D7D2BFBE>.<1> now using Connection 4
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: Task <78D2B128-57BD-4627-B4DA-1950D7D2BFBE>.<1> sent request, body N
+Jul 19 09:23:50 9902007581 videosubscriptionsd(VideoSubscriberAccount)[200] <Notice>: Will execute fetch request: <private>
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: Task <78D2B128-57BD-4627-B4DA-1950D7D2BFBE>.<1> received response, status 200 content C
+Jul 19 09:23:50 9902007581 dataaccessd(CFNetwork)[250] <Notice>: Task <78D2B128-57BD-4627-B4DA-1950D7D2BFBE>.<1> response ended
+Jul 19 09:23:50 9902007581 calaccessd(CalendarDatabase)[165] <Notice>: 25534103: Updating last saved to 585201600
+Jul 19 09:23:50 9902007581 dataaccessd(DataAccess)[250] <Error>: spinnerIdentifiers to be implemented by subclass
+Jul 19 09:23:50 9902007581 calaccessd(CalendarDaemon)[165] <Notice>: Forwarding darwin notifications to modules.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: CALNBulletinBoardProvider notified about darwin notification <private>
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Handling darwin notification <private>
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Received notification: [<private>]
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Sync started. Suppressing updates while it runs.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Received notification: [<private>]
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Sync started. Suppressing updates while it runs.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Sync started. Suppressing updates while it runs.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Received notification: [CalSyncClientBeginningMultiSave].
+Jul 19 09:23:50 9902007581 calaccessd(EventKit)[165] <Notice>: Sync started. Suppressing notification monitor checks while it runs.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarDaemon)[165] <Notice>: Forwarded darwin notification named: <private> to module: <private>.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarDaemon)[165] <Notice>: Finished fowarding darwin notifications to modules.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Installing sync yield timer for travel engine: [<private>].
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Installed sync yield timer with [240] second length for travel engine: [<private>].
+Jul 19 09:23:50 9902007581 dataaccessd(CalendarDatabase)[250] <Notice>: 25534103: Updating last saved to 585201600
+Jul 19 09:23:50 9902007581 calaccessd(CalendarDaemon)[165] <Notice>: Forwarding darwin notifications to modules.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: CALNBulletinBoardProvider notified about darwin notification <private>
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Handling darwin notification <private>
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Received notification: [<private>]
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Sync done. <private> will now reload if needed.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Received notification: [<private>]
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Sync done. <private> will now reload if needed.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Sync done.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Received notification: [CalSyncClientFinishedMultiSave].
+Jul 19 09:23:50 9902007581 calaccessd(EventKit)[165] <Notice>: Sync done, no pending changes.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarDaemon)[165] <Notice>: Forwarded darwin notification named: <private> to module: <private>.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarDaemon)[165] <Notice>: Finished fowarding darwin notifications to modules.
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Uninstalling sync yield timer for travel engine: [<private>].
+Jul 19 09:23:50 9902007581 calaccessd(CalendarNotification)[165] <Notice>: Data does not need to be refreshed.  Will not refresh data for travel engine: [<private>]
+Jul 19 09:23:50 9902007581 videosubscriptionsd(VideoSubscriberAccount)[200] <Notice>: Will return matching subscriptions: <private>
+Jul 19 09:23:50 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Fetched subscriptions: <private>
+Jul 19 09:23:50 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Will call registration center fetch completion handler with subscriptions <private> or error (null).
+Jul 19 09:23:50 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Did call registration center fetch completion handler with subscriptions <private> or error (null).
+Jul 19 09:23:50 9902007581 videosubscriptionsd(VideoSubscriberAccount)[200] <Notice>: Entering -[VSSubscriptionRegistry fetchActiveSubscriptionsWithOptions:completionHandler:]
+Jul 19 09:23:50 9902007581 videosubscriptionsd(VideoSubscriberAccount)[200] <Notice>: Successfully obtained context.
+Jul 19 09:23:50 9902007581 videosubscriptionsd(VideoSubscriberAccount)[200] <Notice>: Will execute fetch request: <private>
+Jul 19 09:23:50 9902007581 videosubscriptionsd(VideoSubscriberAccount)[200] <Notice>: Will return matching subscriptions: <private>
+Jul 19 09:23:50 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Fetched subscriptions: <private>
+Jul 19 09:23:50 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Will call registration center fetch completion handler with subscriptions <private> or error (null).
+Jul 19 09:23:50 9902007581 parsecd(VideoSubscriberAccount)[523] <Notice>: Did call registration center fetch completion handler with subscriptions <private> or error (null).
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247139986325, "end_mach":247140003888, "elapsed_s":"0.000731792", "event":"Location::Leech", "now_s":"585235430.535122037"}
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:50 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:50 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:50 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:50 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:50 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:51 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:51 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:51 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:51 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:51 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:51 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247164289983, "end_mach":247164298672, "elapsed_s":"0.000362042", "event":"Location::Leech", "now_s":"585235431.545727015"}
+Jul 19 09:23:51 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:51 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:51 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:51 9902007581 ScreenShotr(FrontBoardServices)[550] <Notice>: [FBDisplayManager=0x13bd0dfc0] silently connecting <FBSDisplayConfiguration: 0x13bd17950; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x13bd16a70; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:52 9902007581 lsd(MobileCoreServices)[84] <Notice>: Writing identifiers file to <private>.
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247188253885, "end_mach":247188281276, "elapsed_s":"0.001141292", "event":"Location::Leech", "now_s":"585235432.546251059"}
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:52 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:52 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:52 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:52 9902007581 symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -41 (txFrames/txReTx/txFail) 20/0/0 -> (was/is) 0/0
+Jul 19 09:23:53 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:53 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:53 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:53 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247212540134, "end_mach":247212549522, "elapsed_s":"0.000391167", "event":"Location::Leech", "now_s":"585235433.554844975"}
+Jul 19 09:23:53 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:53 9902007581 ScreenShotr(FrontBoardServices)[551] <Notice>: [FBDisplayManager=0x155e15170] silently connecting <FBSDisplayConfiguration: 0x155e272c0; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x155e278b0; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:54 9902007581 SpringBoard(BaseBoard)[55] <Error>: Unable to obtain a task name port right for pid 63: (os/kern) failure (0x5)
+Jul 19 09:23:54 9902007581 SpringBoard(BaseBoard)[55] <Error>: Unable to obtain a task name port right for pid 63: (os/kern) failure (0x5)
+Jul 19 09:23:54 9902007581 SpringBoard(BaseBoard)[55] <Error>: Unable to obtain a task name port right for pid 63: (os/kern) failure (0x5)
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:54 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247236504028, "end_mach":247236513084, "elapsed_s":"0.000377333", "event":"Location::Leech", "now_s":"585235434.553871989"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:54 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:54 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:54 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/Routine.bundle>
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247246648565, "end_mach":247246657530, "elapsed_s":"0.000373542", "event":"Location::Leech", "now_s":"585235434.978924990"}
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/CompassCalibration.bundle>
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:54 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:54 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:54 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:54 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:54 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:55 9902007581 ScreenShotr(FrontBoardServices)[553] <Notice>: [FBDisplayManager=0x159d145b0] silently connecting <FBSDisplayConfiguration: 0x159e0fdf0; Main; mode: "375x667@2x 60Hz sRGB"> {
+    CADisplay.name = LCD;
+    CADisplay.deviceName = primary;
+    CADisplay.seed = 2;
+    tags = 0;
+    currentMode = <FBSDisplayMode: 0x159e0ffe0; 375x667@2x (750x1334/2) 60Hz sRGB>;
+    safeOverscanRatio = {0.89999997615814209, 0.89999997615814209};
+    nativeCenter = {375, 667};
+    pixelSize = {750, 1334};
+    bounds = {{0, 0}, {375, 667}};
+    CADisplay = <CADisplay:LCD primary>;
+}
+Jul 19 09:23:55 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:55 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:55 9902007581 crash_mover[219] <Notice>: crash_mover is handling host-side invocation
+Jul 19 09:23:55 9902007581 crash_mover[219] <Notice>: Calling PLMovePowerlogsToCR()
+Jul 19 09:23:55 9902007581 CommCenter(libBasebandManager.dylib)[80] <Notice>: Snapshot path [/var/wireless/Library/Logs/CrashReporter/Baseband/] was removed
+Jul 19 09:23:55 9902007581 crash_mover[219] <Notice>: device is not paired
+Jul 19 09:23:55 9902007581 crash_mover[219] <Notice>: PLMovePowerlogsToCR() took 0.003067 seconds
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247270784311, "end_mach":247270818908, "elapsed_s":"0.001441542", "event":"Location::Leech", "now_s":"585235435.984817982"}
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:55 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:55 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:55 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:56 9902007581 trustd[114] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+Jul 19 09:23:56 9902007581 trustd[114] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: CLNmeaScreener,type,<private>,lat,<private>,lon,<private>,timestampGPS,<private>,machContTime,<private>,fHorizontalUncertainty,<private>
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: @ClxClient, Fix, 1, ll, <private>, <private>, acc, 5.00, speed, <private>, course, <private>, type, 1
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationBystander"}
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: {"msg":"#Stream Received notification", "notification":"CLLocationProvider_Type::kNotificationLocationLeech"}
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: {"msg":"CLWifiPositioningSystemLogic::apply", "event":"elapsed", "begin_mach":247294879659, "end_mach":247294891561, "elapsed_s":"0.000495917", "event":"Location::Leech", "now_s":"585235436.988945007"}
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: {"msg":"#Stream Stopping location for source", "source":"CLStreamingAwareLocationProviderStateMachine::kLocationSourceLocal"}
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/PrivateFrameworks/MobileWiFi.framework>
+Jul 19 09:23:56 9902007581 locationd[63] <Notice>: Sending location to client </System/Library/LocationBundles/NavdLocationBundleiOS.bundle>
+Jul 19 09:23:56 9902007581 wifid(CoreLocation)[43] <Notice>: delivering locations to client's delegate
+Jul 19 09:23:56 9902007581 navd(CoreLocation)[74] <Notice>: delivering locations to client's delegate

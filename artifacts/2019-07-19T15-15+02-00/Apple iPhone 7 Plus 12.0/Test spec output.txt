@@ -1,0 +1,172 @@
+[DEVICEFARM] Setting up your device. This usually takes 2-3 minutes.
+[DEVICEFARM] ########### Start executing testspec ###########
+ 
+ 
+[DEVICEFARM] ########### Entering phase install ###########
+ 
+[DeviceFarm] export APPIUM_VERSION=1.9.1
+[DeviceFarm] avm $APPIUM_VERSION
+  [36m    exists[0m : [90m1.9.1[0m
+[DeviceFarm] ln -s /usr/local/avm/versions/$APPIUM_VERSION/node_modules/.bin/appium  /usr/local/avm/versions/$APPIUM_VERSION/node_modules/appium/bin/appium.js
+ln: /usr/local/avm/versions/1.9.1/node_modules/appium/bin/appium.js: File exists
+[DeviceFarm] echo "Navigate to test package directory"
+Navigate to test package directory
+[DeviceFarm] cd $DEVICEFARM_TEST_PACKAGE_PATH
+[DeviceFarm] npm install *.tgz
+
+> fibers@4.0.1 install /private/tmp/scratch0_hNRa.scratch/test-packageJYh5fq/node_modules/devicefarm-web-nodejs-test/node_modules/fibers
+> node build.js || nodejs build.js
+
+  CXX(target) Release/obj.target/fibers/src/fibers.o
+  CXX(target) Release/obj.target/fibers/src/coroutine.o
+  CC(target) Release/obj.target/fibers/src/libcoro/coro.o
+  SOLINK_MODULE(target) Release/fibers.node
+Installed in `/private/tmp/scratch0_hNRa.scratch/test-packageJYh5fq/node_modules/devicefarm-web-nodejs-test/node_modules/fibers/bin/darwin-x64-67/fibers.node`
+npm WARN saveError ENOENT: no such file or directory, open '/private/tmp/scratch0_hNRa.scratch/test-packageJYh5fq/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/private/tmp/scratch0_hNRa.scratch/test-packageJYh5fq/package.json'
+npm WARN test-packageJYh5fq No description
+npm WARN test-packageJYh5fq No repository field.
+npm WARN test-packageJYh5fq No README data
+npm WARN test-packageJYh5fq No license field.
+
++ devicefarm-web-nodejs-test@1.0.0
+added 347 packages from 655 contributors and audited 1456 packages in 58.107s
+found 0 vulnerabilities
+
+ 
+[DEVICEFARM] ########### Entering phase pre_test ###########
+ 
+[DeviceFarm] if [ $DEVICEFARM_DEVICE_PLATFORM_NAME = "Android" ]; then echo "Start appium server for android"; (appium --log-timestamp --browser-name Chrome --device-name $DEVICEFARM_DEVICE_NAME --platform-name $DEVICEFARM_DEVICE_PLATFORM_NAME --udid $DEVICEFARM_DEVICE_UDID --chromedriver-executable $DEVICEFARM_CHROMEDRIVER_EXECUTABLE  >> $DEVICEFARM_LOG_DIR/appiumlog.txt 2>&1 &); fi
+[DeviceFarm] if [ $DEVICEFARM_DEVICE_PLATFORM_NAME = "iOS" ]; then echo "Start appium server for iOS"; (appium --log-timestamp --browser-name Safari --device-name $DEVICEFARM_DEVICE_NAME --platform-name $DEVICEFARM_DEVICE_PLATFORM_NAME --udid $DEVICEFARM_DEVICE_UDID --automation-name XCUITest --default-capabilities "{\"usePrebuiltWDA\": true, \"derivedDataPath\":\"$DEVICEFARM_WDA_DERIVED_DATA_PATH_V1\"}" >> $DEVICEFARM_LOG_DIR/appiumlog.txt 2>&1 &); fi
+Start appium server for iOS
+[DeviceFarm] start_appium_timeout=0; while [ true ]; do
+    if [ $start_appium_timeout -gt 60 ];
+    then
+        echo "appium server never started in 60 seconds. Exiting";
+        exit 1;
+    fi;
+    grep -i "Appium REST http interface listener started on 0.0.0.0:4723" $DEVICEFARM_LOG_DIR/appiumlog.txt >> /dev/null 2>&1;
+    if [ $? -eq 0 ];
+    then
+        echo "Appium REST http interface listener started on 0.0.0.0:4723";
+        break;
+    else
+        echo "Waiting for appium server to start. Sleeping for 1 second";
+        sleep 1;
+        start_appium_timeout=$((start_appium_timeout+1));
+    fi;
+done; 
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Waiting for appium server to start. Sleeping for 1 second
+Appium REST http interface listener started on 0.0.0.0:4723
+ 
+[DEVICEFARM] ########### Entering phase test ###########
+ 
+[DeviceFarm] echo "Navigate to test source code"
+Navigate to test source code
+[DeviceFarm] cd $DEVICEFARM_TEST_PACKAGE_PATH/node_modules/*
+[DeviceFarm] echo "Start Appium Node test"
+Start Appium Node test
+[DeviceFarm] ./node_modules/.bin/wdio wdio.conf.js
+
+Execution of 1 spec files started at 2019-07-19T13:29:02.659Z
+
+2019-07-19T13:29:02.665Z INFO @wdio/cli:Launcher: Run onPrepare hook
+2019-07-19T13:29:02.700Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
+[0-0] RUNNING in undefined - /test/specs/basic.js
+[0-0] 2019-07-19T13:29:04.454Z INFO @wdio/local-runner: Run worker command: run
+[0-0] 2019-07-19T13:29:04.916Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+[0-0] 2019-07-19T13:29:04.917Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:39:05.139Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T13:39:05.140Z INFO webdriver: Retrying 1/10
+2019-07-19T13:39:05.140Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:39:05.140Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:49:05.315Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T13:49:05.315Z INFO webdriver: Retrying 2/10
+2019-07-19T13:49:05.316Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:49:05.316Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T13:59:05.412Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T13:59:05.413Z INFO webdriver: Retrying 3/10
+2019-07-19T13:59:05.413Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T13:59:05.413Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T14:09:05.551Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T14:09:05.551Z INFO webdriver: Retrying 4/10
+2019-07-19T14:09:05.551Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T14:09:05.551Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T14:19:05.692Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T14:19:05.692Z INFO webdriver: Retrying 5/10
+2019-07-19T14:19:05.692Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T14:19:05.692Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T14:29:05.794Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T14:29:05.794Z INFO webdriver: Retrying 6/10
+2019-07-19T14:29:05.794Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T14:29:05.794Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T14:39:05.960Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T14:39:05.960Z INFO webdriver: Retrying 7/10
+2019-07-19T14:39:05.960Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T14:39:05.961Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T14:49:06.156Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T14:49:06.156Z INFO webdriver: Retrying 8/10
+2019-07-19T14:49:06.156Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T14:49:06.156Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T14:59:06.254Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T14:59:06.254Z INFO webdriver: Retrying 9/10
+2019-07-19T14:59:06.254Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T14:59:06.254Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T15:09:06.408Z WARN webdriver: Request failed due to socket hang up
+[0-0] 2019-07-19T15:09:06.409Z INFO webdriver: Retrying 10/10
+2019-07-19T15:09:06.409Z INFO webdriver: [POST] http://127.0.0.1:4723/wd/hub/session
+2019-07-19T15:09:06.409Z INFO webdriver: DATA { capabilities: { alwaysMatch: {}, firstMatch: [ {} ] },
+  desiredCapabilities: {} }
+[0-0] 2019-07-19T15:19:06.586Z ERROR webdriver: Request failed due to Error: socket hang up
+    at createHangUpError (_http_client.js:330:15)
+    at Socket.socketOnEnd (_http_client.js:433:23)
+    at Socket.emit (events.js:194:15)
+    at Socket.EventEmitter.emit (domain.js:441:20)
+    at endReadableNT (_stream_readable.js:1107:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-07-19T15:19:06.586Z ERROR @wdio/runner: Error: socket hang up
+    at createHangUpError (_http_client.js:330:15)
+    at Socket.socketOnEnd (_http_client.js:433:23)
+    at Socket.emit (events.js:194:15)
+    at Socket.EventEmitter.emit (domain.js:441:20)
+    at endReadableNT (_stream_readable.js:1107:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-07-19T15:19:06.587Z ERROR @wdio/local-runner: Failed launching test session: TypeError: Cannot read property 'capabilities' of null
+    at Runner.run (/private/tmp/scratch0_hNRa.scratch/test-packageJYh5fq/node_modules/devicefarm-web-nodejs-test/node_modules/@wdio/runner/build/index.js:91:74)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+0-0 worker error { name: 'Error',
+  message: 'socket hang up',
+  stack:
+   'Error: socket hang up\n    at createHangUpError (_http_client.js:330:15)\n    at Socket.socketOnEnd (_http_client.js:433:23)\n    at Socket.emit (events.js:194:15)\n    at Socket.EventEmitter.emit (domain.js:441:20)\n    at endReadableNT (_stream_readable.js:1107:12)\n    at process.internalTickCallback (internal/process/next_tick.js:72:19)' }
+[0-0] FAILED in undefined - /test/specs/basic.js
+2019-07-19T15:19:06.615Z INFO @wdio/cli:Launcher: Run onComplete hook
+
+Spec Files:	 0 passed, 1 failed, 1 total (100% completed) in 01:50:03 
+
+ 
+[DEVICEFARM] ########### Entering phase post_test ###########
+ 
+ 
+[DEVICEFARM] ########### Finish executing testspec ###########
+ 
+[DEVICEFARM] ########### Setting upload permissions ###########
+ 
+ 
+[DEVICEFARM] Tearing down your device. Your tests report will come shortly.
